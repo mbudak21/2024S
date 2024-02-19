@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMP305/lectures/lec2.md",
+                "file": "todo.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP305/lectures/lec2.md",
+                "file": "todo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP305/lectures/lec2.md",
+                "file": "todo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP305/lectures/lec2.md"
+                "file": "todo.md"
               }
             }
           }
@@ -148,7 +148,18 @@
   },
   "active": "6be1878d6783ceda",
   "lastOpenFiles": [
-    "Untitled.md",
-    "COMP305/lectures/lec2.md"
+    "COMP341/tutorial/__pycache__/testParser.cpython-310.pyc",
+    "COMP341/tutorial/__pycache__/textDisplay.cpython-310.pyc",
+    "COMP341/tutorial/__pycache__/testClasses.cpython-310.pyc",
+    "COMP341/tutorial/__pycache__/tutorialTestClasses.cpython-310.pyc",
+    "COMP341/tutorial/__pycache__/town.cpython-310.pyc",
+    "COMP341/tutorial/__pycache__/shopAroundTown.cpython-310.pyc",
+    "COMP341/tutorial/__pycache__/shop.cpython-310.pyc",
+    "COMP341/tutorial/__pycache__/shopSmart.cpython-310.pyc",
+    "COMP341/tutorial/__pycache__/buyLotsOfFruit.cpython-310.pyc",
+    "COMP341/tutorial/__pycache__/addition.cpython-310.pyc",
+    "COMP341/tutorial/__pycache__/projectParams.cpython-310.pyc",
+    "COMP305/lectures/lec2.md",
+    "Untitled.md"
   ]
 }

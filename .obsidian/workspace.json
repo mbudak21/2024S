@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "todo.md",
+                "file": "COMP304/L2 - Operating System Structure.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "todo.md",
+                "file": "COMP304/L2 - Operating System Structure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "todo.md",
+                "file": "COMP304/L2 - Operating System Structure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "todo.md"
+                "file": "COMP304/L2 - Operating System Structure.md"
               }
             }
           }
@@ -148,6 +148,11 @@
   },
   "active": "6be1878d6783ceda",
   "lastOpenFiles": [
+    "COMP304/L1 - Intro.md",
+    "COMP304/L2 - Operating System Structure.md",
+    "COMP304/lec3.md",
+    "COMP305/lectures/lec2.md",
+    "COMP305/lectures/lec3.md",
     "COMP341/tutorial/__pycache__/testParser.cpython-310.pyc",
     "COMP341/tutorial/__pycache__/textDisplay.cpython-310.pyc",
     "COMP341/tutorial/__pycache__/testClasses.cpython-310.pyc",
@@ -158,8 +163,6 @@
     "COMP341/tutorial/__pycache__/shopSmart.cpython-310.pyc",
     "COMP341/tutorial/__pycache__/buyLotsOfFruit.cpython-310.pyc",
     "COMP341/tutorial/__pycache__/addition.cpython-310.pyc",
-    "COMP341/tutorial/__pycache__/projectParams.cpython-310.pyc",
-    "COMP305/lectures/lec2.md",
     "Untitled.md"
   ]
 }

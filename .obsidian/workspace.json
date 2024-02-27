@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c7309617b5e5b678",
+        "id": "735490b493650665",
         "type": "tabs",
         "children": [
           {
-            "id": "6be1878d6783ceda",
+            "id": "a4243443c7dd629a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMP304/L2 - Operating System Structure.md",
+                "file": "COMP305/lectures/lec5?.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP304/L2 - Operating System Structure.md",
+                "file": "COMP305/lectures/lec5?.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP304/L2 - Operating System Structure.md",
+                "file": "COMP305/lectures/lec5?.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP304/L2 - Operating System Structure.md"
+                "file": "COMP305/lectures/lec5?.md"
               }
             }
           }
@@ -146,23 +146,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6be1878d6783ceda",
+  "active": "a4243443c7dd629a",
   "lastOpenFiles": [
-    "COMP304/L1 - Intro.md",
-    "COMP304/L2 - Operating System Structure.md",
-    "COMP304/lec3.md",
-    "COMP305/lectures/lec2.md",
     "COMP305/lectures/lec3.md",
+    "COMP305/lectures/lec5?.md",
+    "COMP305/lectures/lec2.md",
+    "COMP304/Lecture4 - Process creation.pdf",
+    "COMP304/Lecture5 - IPC.pdf",
+    "COMP304/Lecture3-process-management.pdf",
+    "COMP304/Lecture2 - OS Structure.pdf",
+    "COMP304/L5 - Inter-Process Communication (IPC).md",
+    "COMP304/Lecture1-intro.pdf",
+    "COMP304/L2 - Operating System Structure.md",
+    "COMP304/L1 - Intro.md",
+    "COMP304/lec3.md",
     "COMP341/tutorial/__pycache__/testParser.cpython-310.pyc",
     "COMP341/tutorial/__pycache__/textDisplay.cpython-310.pyc",
     "COMP341/tutorial/__pycache__/testClasses.cpython-310.pyc",
     "COMP341/tutorial/__pycache__/tutorialTestClasses.cpython-310.pyc",
     "COMP341/tutorial/__pycache__/town.cpython-310.pyc",
-    "COMP341/tutorial/__pycache__/shopAroundTown.cpython-310.pyc",
-    "COMP341/tutorial/__pycache__/shop.cpython-310.pyc",
-    "COMP341/tutorial/__pycache__/shopSmart.cpython-310.pyc",
-    "COMP341/tutorial/__pycache__/buyLotsOfFruit.cpython-310.pyc",
-    "COMP341/tutorial/__pycache__/addition.cpython-310.pyc",
     "Untitled.md"
   ]
 }

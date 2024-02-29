@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "735490b493650665",
+        "id": "f4633ec1154b0b68",
         "type": "tabs",
         "children": [
           {
-            "id": "a4243443c7dd629a",
+            "id": "f6bde9e30a6f1069",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMP305/lectures/lec5?.md",
+                "file": "ETHC113/L6 -.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP305/lectures/lec5?.md",
+                "file": "ETHC113/L6 -.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP305/lectures/lec5?.md",
+                "file": "ETHC113/L6 -.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP305/lectures/lec5?.md"
+                "file": "ETHC113/L6 -.md"
               }
             }
           }
@@ -146,25 +146,31 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a4243443c7dd629a",
+  "active": "f6bde9e30a6f1069",
   "lastOpenFiles": [
-    "COMP305/lectures/lec3.md",
-    "COMP305/lectures/lec5?.md",
-    "COMP305/lectures/lec2.md",
-    "COMP304/Lecture4 - Process creation.pdf",
-    "COMP304/Lecture5 - IPC.pdf",
+    "ETHC113/lec4.md",
+    "ETHC113/con",
+    "ETHC113/L5.null",
+    "ETHC113/L6 -.md",
+    "COMP305/lectures/L1 - Introduction.md",
+    "COMP305/lectures/L4 - Medians, Induction.md",
+    "COMP305/lectures/L6 - VanEmdeBoas 2.md",
+    "COMP305/lectures/L5 - VanEmdeBoas 1.md",
+    "COMP305/lectures/L3 - Convex Hull, Master Thm.md",
+    "COMP305/lectures/L2 - MatMul, Recurrences.md",
+    "COMP304/L6 - Process Management.md",
     "COMP304/Lecture3-process-management.pdf",
     "COMP304/Lecture2 - OS Structure.pdf",
     "COMP304/L5 - Inter-Process Communication (IPC).md",
+    "COMP341/tutorial/lec 5.md",
+    "COMP304/Lecture4 - Process creation.pdf",
+    "COMP304/Lecture5 - IPC.pdf",
     "COMP304/Lecture1-intro.pdf",
     "COMP304/L2 - Operating System Structure.md",
     "COMP304/L1 - Intro.md",
-    "COMP304/lec3.md",
     "COMP341/tutorial/__pycache__/testParser.cpython-310.pyc",
     "COMP341/tutorial/__pycache__/textDisplay.cpython-310.pyc",
     "COMP341/tutorial/__pycache__/testClasses.cpython-310.pyc",
-    "COMP341/tutorial/__pycache__/tutorialTestClasses.cpython-310.pyc",
-    "COMP341/tutorial/__pycache__/town.cpython-310.pyc",
     "Untitled.md"
   ]
 }

@@ -24,12 +24,19 @@ def main():
     background_color = (255, 255, 255)  # White
     point_color = (0, 0, 0)  # Black
     num_points = 100  # Number of points to generate
+    coll_radius = 5  # Collision radius
 
     # Initialize Pygame
     screen, clock = initialize_pygame(L)
 
     # Generate points
     points = generate_points(L, num_points)
+
+    # Sort points by x
+    x_sorted = sorted(points, key=lambda point: point[0])
+
+    # Sort points by y
+    y_sorted = sorted(points, key=lambda point: point[1])
 
     running = True
     while running:

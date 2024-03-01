@@ -39,3 +39,4 @@
 - Creating images and text from input prompts
 
 # Foundation Models
+Foundation models, a term gaining prominence in the field of artificial intelligence (AI), refer to a class of models that are pre-trained on vast amounts of data to learn a wide range of skills or capabilities. These models, once trained, can then be fine-tuned or adapted to perform specific tasks across different domains, such as natural language processing (NLP), computer vision, and beyond. The concept is largely associated with models like GPT (Generative Pre-trained Transformer) from OpenAI, BERT (Bidirectional Encoder Representations from Transformers) from Google, and other similar large-scale models.

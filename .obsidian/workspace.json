@@ -6,6 +6,7 @@
       {
         "id": "3841a460ecb258f0",
         "type": "tabs",
+        "dimension": 40.5436013590034,
         "children": [
           {
             "id": "b8da0d25beb05e45",
@@ -13,9 +14,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dynamic.md",
+                "file": "COMP341/lectures/L1 - Introduction.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "64c90b3ce81a67e3",
+        "type": "tabs",
+        "dimension": 59.456398640996596,
+        "children": [
+          {
+            "id": "76f41676c43bec76",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "COMP341/slides/1 - Introduction.pdf"
               }
             }
           }
@@ -85,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dynamic.md",
+                "file": "COMP341/lectures/L1 - Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dynamic.md",
+                "file": "COMP341/lectures/L1 - Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dynamic.md"
+                "file": "COMP341/lectures/L1 - Introduction.md"
               }
             }
           }
@@ -146,8 +164,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "eb88a1bbdbd7871b",
+  "active": "b8da0d25beb05e45",
   "lastOpenFiles": [
+    "COMP341/slides/1 - Introduction.pdf",
+    "COMP341/lectures/L1 - Introduction.md",
+    "COMP341/lectures/L2 - Agents.md",
+    "Dynamic.md",
     "COMP305/lectures/L2 - MatMul, Recurrences.md",
     "COMP305/ps/ps1_test.py",
     "COMP305/lectures/L3 - Convex Hull, Master Thm.md",
@@ -161,12 +183,8 @@
     "COMP341/slides/4 - InformedSearch.pdf",
     "COMP341/slides/3 - Uninformed Search.pdf",
     "COMP341/slides/2 - Agents.pdf",
-    "COMP341/slides/1 - Introduction.pdf",
     "COMP341/slides/0 - Nuts and Bolts.pdf",
     "COMP341/slides",
-    "COMP341/lectures/L2 - Agents.md",
-    "COMP341/lectures/L1 - Introduction.md",
-    "Dynamic.md",
     "COMP341/lectures",
     "ETHC113/lec4.md",
     "ETHC113/con",

@@ -1,5 +1,9 @@
 {
   "accentColor": "#df6262",
-  "cssTheme": "Obsidian Nord",
-  "theme": "obsidian"
+  "cssTheme": "Sanctum",
+  "theme": "obsidian",
+  "interfaceFontFamily": "CaskaydiaCove Nerd Font",
+  "enabledCssSnippets": [
+    "big-math"
+  ]
 }

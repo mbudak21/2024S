@@ -1,1 +1,0 @@
-MT1 at 6th week. $a$ 

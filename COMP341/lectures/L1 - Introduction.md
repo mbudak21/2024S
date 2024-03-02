@@ -47,3 +47,8 @@ Foundation models, a term gaining prominence in the field of artificial intellig
 
 # Agent
 "Something that can act" –generalization of the word “individual” to non- human things
+**Formally:** An autonomous entity that exists in some kind of environment and that perceives and acts.
+A **rational** agent selects actions that maximize its (expected) utility
+
+# Problem Types
+![[Pasted image 20240302220953.png]]

@@ -72,7 +72,7 @@ def tinyMazeSearch(problem):
     w = Directions.WEST
     return  [s, s, w, s, w, w, s, w]
 
-def depthFirstSearch(problem: SearchProblem):
+def depthFirstSearch(problem):
     """
     Search the deepest nodes in the search tree first.
 
@@ -82,30 +82,143 @@ def depthFirstSearch(problem: SearchProblem):
     To get started, you might want to try some of these simple commands to
     understand the search problem that is being passed in:
 
-    print("Start:", problem.getStartState())
-    print("Is the start a goal?", problem.isGoalState(problem.getStartState()))
-    print("Start's successors:", problem.getSuccessors(problem.getStartState()))
+    print "Start:", problem.getStartState()
+    print "Is the start a goal?", problem.isGoalState(problem.getStartState())
+    print "Start's successors:", problem.getSuccessors(problem.getStartState())
     """
     "*** YOUR CODE HERE ***"
-    from game import Directions
+    
+    startState = problem.getStartState()
+    
+    #Initializing the fringe and closed set
+    from util import Stack
+    fringe = Stack()
+    fringe.push((startState,[],0))    
+    closedSet= []
+    
+    
+    
+    while not fringe.isEmpty():
+        
+        node = fringe.pop()
+        
 
-    s = Directions.SOUTH
-    e = Directions.EAST
-    w = Directions.WEST
-    n = Directions.NORTH
+        if problem.isGoalState(node[0]):
+            return node[1]
+          
+        
+        if not node[0] in closedSet:
+            for successor in problem.getSuccessors(node[0]):
+                if not successor[0] in closedSet:
+                    newSuccessor = (successor[0],node[1]+[successor[1]],successor[2])
+                    fringe.push(newSuccessor)
+            closedSet.append(node[0])
+
+    
+    return []
 
 
-    return [s]
+def depthFirstSearch(problem):
+    """
+    Search the deepest nodes in the search tree first.
+
+    Your search algorithm needs to return a list of actions that reaches the
+    goal. Make sure to implement a graph search algorithm.
+
+    To get started, you might want to try some of these simple commands to
+    understand the search problem that is being passed in:
+
+    print "Start:", problem.getStartState()
+    print "Is the start a goal?", problem.isGoalState(problem.getStartState())
+    print "Start's successors:", problem.getSuccessors(problem.getStartState())
+    """
+    "*** YOUR CODE HERE ***"
+
+    
+    startState = problem.getStartState()
+    
+    #Initializing the fringe and closed set
+    from util import Stack  
+    openSet = Stack()
+    closedSet = []
+
+    # Node format: (state, action, cost)
+
+    openSet.push((startState, [], 0))
+
+    while (not openSet.isEmpty()):
+        
+        curr_node = openSet.pop()
+
+        if curr_node[0] not in closedSet:
+            closedSet.append(curr_node[0])
+            if problem.isGoalState(curr_node[0]):
+                return curr_node[1] # return the actions
+            for child in problem.getSuccessors(curr_node[0]):
+                if child[0] not in closedSet:
+                    openSet.push((child[0],curr_node[1]+[child[1]],child[2]))
+    return []
+
+    
+ 
 
 def breadthFirstSearch(problem: SearchProblem):
     """Search the shallowest nodes in the search tree first."""
     "*** YOUR CODE HERE ***"
-    util.raiseNotDefined()
+    startState = problem.getStartState()
+    
+    #Initializing the fringe and closed set
+    from util import Queue  
+    openSet = Queue()
+    closedSet = []
+
+    # Node format: (state, action, cost)
+
+    openSet.push((startState, [], 0))
+
+    while (not openSet.isEmpty()):
+        
+        curr_node = openSet.pop()
+
+        if curr_node[0] not in closedSet:
+            closedSet.append(curr_node[0])
+            if problem.isGoalState(curr_node[0]):
+                print("Goal found")
+                return curr_node[1] # return the actions
+            for child in problem.getSuccessors(curr_node[0]):
+                if child[0] not in closedSet:
+                    openSet.push((child[0],curr_node[1]+[child[1]],child[2]))
+    return []
 
 def uniformCostSearch(problem: SearchProblem):
     """Search the node of least total cost first."""
     "*** YOUR CODE HERE ***"
-    util.raiseNotDefined()
+    startState = problem.getStartState()
+    
+    #Initializing the fringe and closed set
+    from util import PriorityQueue
+    openSet = PriorityQueue()
+    closedSet = []
+
+    # Node format: (state, action, cost)
+
+    openSet.push((startState, [], 0), 0)
+
+    while (not openSet.isEmpty()):
+        
+        curr_node = openSet.pop()
+
+        if curr_node[0] not in closedSet:
+            closedSet.append(curr_node[0])
+            if problem.isGoalState(curr_node[0]):
+                print("Goal found")
+                return curr_node[1] # return the actions
+            for child in problem.getSuccessors(curr_node[0]):
+                if child[0] not in closedSet:
+                    item = (child[0],curr_node[1]+[child[1]], child[2])
+                    priority = problem.getCostOfActions(curr_node[1]+[child[1]])
+                    openSet.push(item, priority)
+    return []
 
 def nullHeuristic(state, problem=None):
     """
@@ -117,7 +230,34 @@ def nullHeuristic(state, problem=None):
 def aStarSearch(problem: SearchProblem, heuristic=nullHeuristic):
     """Search the node that has the lowest combined cost and heuristic first."""
     "*** YOUR CODE HERE ***"
-    util.raiseNotDefined()
+
+
+    startState = problem.getStartState()
+    
+    #Initializing the fringe and closed set
+    from util import PriorityQueue
+    openSet = PriorityQueue()
+    closedSet = []
+
+    # Node format: (state, action, cost)
+
+    openSet.push((startState, [], 0), 0)
+
+    while (not openSet.isEmpty()):
+        
+        curr_node = openSet.pop()
+
+        if curr_node[0] not in closedSet:
+            closedSet.append(curr_node[0])
+            if problem.isGoalState(curr_node[0]):
+                print("Goal found")
+                return curr_node[1] # return the actions
+            for child in problem.getSuccessors(curr_node[0]):
+                if child[0] not in closedSet:
+                    item = (child[0],curr_node[1]+[child[1]], child[2])
+                    priority = problem.getCostOfActions(curr_node[1]+[child[1]]) + heuristic(child[0], problem)
+                    openSet.push(item, priority)
+    return []
 
 
 # Abbreviations

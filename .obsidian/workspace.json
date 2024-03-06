@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP304/L7 -.md",
+                "file": "COMP304/slides/Lecture3-process-management.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP304/L7 -.md",
+                "file": "COMP304/slides/Lecture3-process-management.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP304/L7 -.md"
+                "file": "COMP304/slides/Lecture3-process-management.pdf"
               }
             }
           }
@@ -174,10 +174,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6060ab75b701689e",
+  "active": "fa8d0b1c7371c888",
   "lastOpenFiles": [
-    "COMP304/slides/Lecture3-process-management.pdf",
     "COMP304/L7 -.md",
+    "COMP304/slides/Lecture3-process-management.pdf",
     "COMP304/slides/Lecture1-intro.pdf",
     "COMP304/slides/Untitled",
     "COMP304/slides",

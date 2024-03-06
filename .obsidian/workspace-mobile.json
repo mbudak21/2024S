@@ -34,8 +34,19 @@
                 "file": "COMP304/slides/Lecture3-process-management.pdf"
               }
             }
+          },
+          {
+            "id": "da031f997b0ecfe1",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "COMP304/slides/Lecture4 - Process creation.pdf"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -101,7 +112,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "COMP304/L6 - Process Management.md",
+            "file": "COMP304/slides/Lecture4 - Process creation.pdf",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -118,7 +129,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "COMP304/L6 - Process Management.md",
+            "file": "COMP304/slides/Lecture4 - Process creation.pdf",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -130,7 +141,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "COMP304/L6 - Process Management.md"
+            "file": "COMP304/slides/Lecture4 - Process creation.pdf"
           }
         }
       }
@@ -147,12 +158,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c5b42b72466a94e8",
+  "active": "da031f997b0ecfe1",
   "lastOpenFiles": [
+    "COMP304/L6 - Process Management.md",
     "COMP304/C_code/child_process_test.c",
     "COMP304/C_code",
     "COMP304/slides/Lecture3-process-management.pdf",
-    "COMP304/L6 - Process Management.md",
     "Dynamic.md",
     "README.md",
     "ETHC113/readings/Reading1.Plato.pdf",
@@ -162,7 +173,6 @@
     "COMP341/Assignments/search/__pycache__/testParser.cpython-311.pyc",
     "COMP341/Assignments/search/__pycache__/testClasses.cpython-311.pyc",
     "COMP341/Assignments/search/__pycache__/searchTestClasses.cpython-311.pyc",
-    "COMP341/Assignments/search/__pycache__/projectParams.cpython-311.pyc",
     "COMP305/lectures/How To Solve Recurrences?.md"
   ]
 }

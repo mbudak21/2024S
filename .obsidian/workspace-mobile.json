@@ -149,6 +149,8 @@
   },
   "active": "c5b42b72466a94e8",
   "lastOpenFiles": [
+    "COMP304/C_code/child_process_test.c",
+    "COMP304/C_code",
     "COMP304/slides/Lecture3-process-management.pdf",
     "COMP304/L6 - Process Management.md",
     "Dynamic.md",
@@ -161,7 +163,6 @@
     "COMP341/Assignments/search/__pycache__/testClasses.cpython-311.pyc",
     "COMP341/Assignments/search/__pycache__/searchTestClasses.cpython-311.pyc",
     "COMP341/Assignments/search/__pycache__/projectParams.cpython-311.pyc",
-    "COMP341/Assignments/search/__pycache__/grading.cpython-311.pyc",
     "COMP305/lectures/How To Solve Recurrences?.md"
   ]
 }

@@ -4,11 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "a1c077b9850b6db7",
+        "id": "f1e7014bf3523c16",
         "type": "tabs",
         "children": [
           {
-            "id": "88b285586d86d255",
+            "id": "c5b42b72466a94e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "COMP304/L6 - Process Management.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "7bc0172974908ac3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ad2f03822b546825",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -83,7 +101,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "COMP304/slides/Lecture3-process-management.pdf",
+            "file": "COMP304/L6 - Process Management.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -100,7 +118,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "COMP304/slides/Lecture3-process-management.pdf",
+            "file": "COMP304/L6 - Process Management.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -112,7 +130,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "COMP304/slides/Lecture3-process-management.pdf"
+            "file": "COMP304/L6 - Process Management.md"
           }
         }
       }
@@ -129,8 +147,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "88b285586d86d255",
+  "active": "c5b42b72466a94e8",
   "lastOpenFiles": [
+    "COMP304/slides/Lecture3-process-management.pdf",
+    "COMP304/L6 - Process Management.md",
+    "Dynamic.md",
+    "README.md",
     "ETHC113/readings/Reading1.Plato.pdf",
     "ETHC113/assignments/e3.docx",
     "ETHC113/assignments/e2.docx",
@@ -140,8 +162,6 @@
     "COMP341/Assignments/search/__pycache__/searchTestClasses.cpython-311.pyc",
     "COMP341/Assignments/search/__pycache__/projectParams.cpython-311.pyc",
     "COMP341/Assignments/search/__pycache__/grading.cpython-311.pyc",
-    "/ETHC113/readings/Reading1.Plato.pdf",
-    "/ETHC113/assignments/e3.docx",
     "COMP305/lectures/How To Solve Recurrences?.md"
   ]
 }

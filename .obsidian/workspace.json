@@ -4,51 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "ce4a4419251fc96b",
+        "id": "7ca822a3f0856374",
         "type": "tabs",
-        "dimension": 37.15722120658135,
         "children": [
           {
-            "id": "6060ab75b701689e",
+            "id": "a35008cb64f9e91f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMP304/L7 -.md",
+                "file": "COMP305/lectures/Amortization.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ]
-      },
-      {
-        "id": "91b3d6c3949e2789",
-        "type": "tabs",
-        "dimension": 62.842778793418645,
-        "children": [
-          {
-            "id": "fa8d0b1c7371c888",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "COMP304/slides/Lecture3-process-management.pdf"
-              }
-            }
-          },
-          {
-            "id": "448dd640e5ef5c02",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "COMP304/slides/Lecture4 - Process creation.pdf"
-              }
-            }
-          }
-        ],
-        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -114,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP304/L7 -.md",
+                "file": "COMP305/lectures/Amortization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP304/L7 -.md",
+                "file": "COMP305/lectures/Amortization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP304/L7 -.md"
+                "file": "COMP305/lectures/Amortization.md"
               }
             }
           }
@@ -175,10 +146,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6060ab75b701689e",
+  "active": "a35008cb64f9e91f",
   "lastOpenFiles": [
-    "COMP304/slides/Lecture4 - Process creation.pdf",
+    "COMP305/lectures/How To Solve Recurrences.md",
+    "COMP305/lectures/Amortization.md",
     "COMP304/L7 -.md",
+    "COMP304/slides/Lecture4 - Process creation.pdf",
     "COMP304/slides/Lecture3-process-management.pdf",
     "COMP304/slides/Lecture1-intro.pdf",
     "COMP304/slides/Untitled",
@@ -187,7 +160,6 @@
     "COMP304/L2 - Operating System Structure.md",
     "COMP341/slides/2 - Agents.pdf",
     "COMP341/slides/1 - Introduction.pdf",
-    "COMP305/lectures/How To Solve Recurrences?.md",
     "COMP341/Assignments/search/__pycache__/graphicsUtils.cpython-311.pyc",
     "COMP341/Assignments/search/__pycache__/graphicsDisplay.cpython-311.pyc",
     "COMP341/Assignments/search/__pycache__/keyboardAgents.cpython-311.pyc",

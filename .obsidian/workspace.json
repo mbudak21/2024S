@@ -19,16 +19,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "448dd640e5ef5c02",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "COMP304/slides/Lecture4 - Process creation.pdf"
-              }
-            }
           }
         ]
       },
@@ -46,8 +36,19 @@
                 "file": "COMP304/slides/Lecture3-process-management.pdf"
               }
             }
+          },
+          {
+            "id": "448dd640e5ef5c02",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "COMP304/slides/Lecture4 - Process creation.pdf"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -113,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP304/slides/Lecture3-process-management.pdf",
+                "file": "COMP304/L7 -.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP304/slides/Lecture3-process-management.pdf",
+                "file": "COMP304/L7 -.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP304/slides/Lecture3-process-management.pdf"
+                "file": "COMP304/L7 -.md"
               }
             }
           }
@@ -174,14 +175,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fa8d0b1c7371c888",
+  "active": "6060ab75b701689e",
   "lastOpenFiles": [
+    "COMP304/slides/Lecture4 - Process creation.pdf",
     "COMP304/L7 -.md",
     "COMP304/slides/Lecture3-process-management.pdf",
     "COMP304/slides/Lecture1-intro.pdf",
     "COMP304/slides/Untitled",
     "COMP304/slides",
-    "COMP304/slides/Lecture4 - Process creation.pdf",
     "COMP304/L6 - Process Management.md",
     "COMP304/L2 - Operating System Structure.md",
     "COMP341/slides/2 - Agents.pdf",

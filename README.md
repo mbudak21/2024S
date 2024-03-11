@@ -3,5 +3,4 @@
   **Algo course:** go over the lectures
 
   **Linux Stuff:**
-    Keyboard layout TR, Qemu, virt, power management?
-    
+    Brightness module, fork .dotfiles

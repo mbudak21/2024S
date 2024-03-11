@@ -507,14 +507,14 @@ def foodHeuristic(state: Tuple[Tuple, List[List]], problem: FoodSearchProblem):
     "*** YOUR CODE HERE ***"
 
 
-    # 1st Heuristic: Count how many food nodes are present in the grid
-    # Result: 3202 tiny, 12617
-    count = 0
-    for currentInt in foodGrid.packBits()[2:]:
-        while currentInt:
-            count += currentInt & 1
-            currentInt >>= 1
-    return count
+    # # 1st Heuristic: Count how many food nodes are present in the grid
+    # # Result: 3202 tiny, 12617
+    # count = 0
+    # for currentInt in foodGrid.packBits()[2:]:
+    #     while currentInt:
+    #         count += currentInt & 1
+    #         currentInt >>= 1
+    # return count
 
     # # 2nd Heuristic: Distance to the closest food
     # # Result: 4238 tiny
@@ -527,27 +527,42 @@ def foodHeuristic(state: Tuple[Tuple, List[List]], problem: FoodSearchProblem):
     #             mindDistance = min(mindDistance, distance)
     # if mindDistance == 99999999999:
     #     mindDistance = 0
-    # print(mindDistance)
     # return mindDistance
 
 
-    # # 3rd Heuristic: Avg manhattan distance to all of the food nodes
-    # # Result: 136 tiny
-    # # NOT CONSISTENT
-    # distances = 0
-    # for i, row in enumerate(foodGrid):
-    #     for j, elem in enumerate(row):
-    #         if elem == True:
-    #             distances += (abs(position[0]-i) + abs(position[1]-j))
-    # return distances
+    # 3rd Heuristic: Avg manhattan distance to all of the food nodes
+    # Result: 136 tiny
+    # NOT CONSISTENT
+    x, y =  position
+    if foodGrid[x][y]:
+        print("FOUND")
+        return 0
+    if foodGrid.count(True) < 10:
+        count = 0
+        for currentInt in foodGrid.packBits()[2:]:
+            while currentInt:
+                count += currentInt & 1
+                currentInt >>= 1
+        return count
+    
+    
+    if foodGrid.count(True) == 0:
+        return 0
+    
+    distances = 0
+    for i, row in enumerate(foodGrid):
+        for j, elem in enumerate(row):
+            if elem == True:
+                distances += abs(position[0] - i) + abs(position[1] - j)
+    print(distances/foodGrid.count(True))
+    return distances
 
-    # # 4th Heuristic: Count of food on the 3x3 box with its center as the position
+    # # 4th Heuristic: 
     # # Result 5109 tiny Search
     # x, y = position
     # values = [                  foodGrid[x][y+1], \
-    #           foodGrid[x+1][y],                     foodGrid[x-1][y], \
+    #           foodGrid[x+1][y], foodGrid[x][y], foodGrid[x-1][y], \
     #                             foodGrid[x][y-1]]
-    
     # return values.count(True)
 
     # # 5th Heuristic: Max distance to all food
@@ -574,28 +589,32 @@ def foodHeuristic(state: Tuple[Tuple, List[List]], problem: FoodSearchProblem):
     #     mindDistance = 0
     # return mindDistance+maxDistance
 
-    # 7th Heuristic: Combining max and min distances, and the count of food
-    # Result: 1267
-    mindDistance = 999999999
-    maxDistance = 0
-    count = 0
-    for i, row in enumerate(foodGrid):
-        for j, elem in enumerate(row):
-            if elem == True:
-                if count < 8:
-                    distance = abs(position[0] - i) + abs(position[1] - j)
-                    mindDistance = min(mindDistance, distance)
-                    maxDistance = max(maxDistance, distance)
-                count += 1
+    # # 7th Heuristic: Combining max and min distances, and the count of food
+    # # Result: 1267
+    # mindDistance = 999999999
+    # maxDistance = 0
+    # count = 0
+    # for i, row in enumerate(foodGrid):
+    #     for j, elem in enumerate(row):
+    #         if elem == True:
+    #             if count < 6:
+    #                 distance = abs(position[0] - i) + abs(position[1] - j)
+    #                 mindDistance = min(mindDistance, distance)
+    #                 maxDistance = max(maxDistance, distance)
+    #                 count += 1
 
+    # if mindDistance == 999999999:
+    #     mindDistance = 0
+    # if mindDistance == 0:
+    #     return 0
+    # if count >= 6:
+    #     return count
+    # return mindDistance+maxDistance+count
 
+    # 8th: MST
+    # Result: ?
 
-    if mindDistance == 999999999:
-        mindDistance = 0
-    if count >= 8:
-        return count
-    return mindDistance+maxDistance+count
-
+    return 0
 
 class ClosestDotSearchAgent(SearchAgent):
     "Search for all food using a sequence of searches"

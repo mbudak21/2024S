@@ -277,12 +277,14 @@ class CornersProblem(search.SearchProblem):
     You must select a suitable state space and successor function
     """
 
-    def __init__(self, startingGameState: pacman.GameState):
+    def __init__(self, startingGameState: pacman.GameState, heuristic_fn = lambda x: 1):
         """
         Stores the walls, pacman's starting position and corners.
         """
-        self.walls = startingGameState.getWalls()
         self.startingPosition = startingGameState.getPacmanPosition()
+        self.heuristic = heuristic_fn
+
+        self.walls = startingGameState.getWalls()
         top, right = self.walls.height-2, self.walls.width-2
         self.corners = ((1,1), (1,top), (right, 1), (right, top))
         for corner in self.corners:
@@ -290,22 +292,30 @@ class CornersProblem(search.SearchProblem):
                 print('Warning: no food in corner ' + str(corner))
         self._expanded = 0 # DO NOT CHANGE; Number of search nodes expanded
 
+        # -------------------------------------------------------------------
+        # defining the state space
+        self.corners_visited = {(1, 1):False, (1, top):False, (right, 1):False, (right, top):False}
+        self.startState = (self.startingPosition, self.corners_visited)
+
     def getStartState(self):
         """
         Returns the start state (in your state space, not the full Pacman state
         space)
         """
         "*** YOUR CODE HERE ***"
-        util.raiseNotDefined()
+        return self.startState
 
-    def isGoalState(self, state: Any):
+    def isGoalState(self, state: tuple[tuple[int, int], dict]):
         """
         Returns whether this search state is a goal state of the problem.
         """
         "*** YOUR CODE HERE ***"
-        util.raiseNotDefined()
+        isGoal = True
+        for corner in state[1].values():
+            isGoal = (isGoal and corner) # AND all of the corner bool values
+        return isGoal
 
-    def getSuccessors(self, state: Any):
+    def getSuccessors(self, state: tuple[tuple[int, int], dict]):
         """
         Returns successor states, the actions they require, and a cost of 1.
 
@@ -320,14 +330,33 @@ class CornersProblem(search.SearchProblem):
         for action in [Directions.NORTH, Directions.SOUTH, Directions.EAST, Directions.WEST]:
             # Add a successor state to the successor list if the action is legal
             # Here's a code snippet for figuring out whether a new position hits a wall:
-            #   x,y = currentPosition
-            #   dx, dy = Actions.directionToVector(action)
-            #   nextx, nexty = int(x + dx), int(y + dy)
-            #   hitsWall = self.walls[nextx][nexty]
+            x,y = state[0] #Modified this part
+            # print("STATE: ", state)
+            dx, dy = Actions.directionToVector(action)
+            nextx, nexty = int(x + dx), int(y + dy)
+            hitsWall = self.walls[nextx][nexty]
 
             "*** YOUR CODE HERE ***"
+            if not hitsWall:
+                new_pos = (nextx, nexty)
+                # print("pos:", new_pos, " vals: ", state[1].keys())
+                corner_data = state[1]
+                if new_pos in state[1].keys():
+                    corner_data = corner_data.copy() # Copy the dict
+                    corner_data[new_pos] = True # Found a corner!
+                    
+                nextState = (new_pos, corner_data)
+                cost = self.heuristic(new_pos)
+                successors.append( (nextState, action, cost) )
 
+                
         self._expanded += 1 # DO NOT CHANGE
+        # # Checker
+        # for nstate in successors:
+        #     if type(nstate[0]) != tuple:
+        #         raise TypeError(f"state[0] should be int, is {nstate[0]}")
+        #     if type(nstate[1]) != dict:
+        #         raise TypeError(f"state[1] should be a dict, is {nstate[1]}")
         return successors
 
     def getCostOfActions(self, actions):
@@ -336,11 +365,13 @@ class CornersProblem(search.SearchProblem):
         include an illegal move, return 999999.  This is implemented for you.
         """
         if actions == None: return 999999
-        x,y= self.startingPosition
+        x,y = self.startingPosition
         for action in actions:
             dx, dy = Actions.directionToVector(action)
             x, y = int(x + dx), int(y + dy)
             if self.walls[x][y]: return 999999
+            #print(self.heuristic)
+            #print(f"heuristic: {self.heuristic((x,y))}")
         return len(actions)
 
 
@@ -359,9 +390,28 @@ def cornersHeuristic(state: Any, problem: CornersProblem):
     """
     corners = problem.corners # These are the corner coordinates
     walls = problem.walls # These are the walls of the maze, as a Grid (game.py)
+    CHOSEN = "MANHATTAN_DISTANCE"
+
+    if type(state[0]) != tuple:
+        raise TypeError(f"Can't use type: {type(state[0])}, instead of tuple")
+    
+    xcoord, ycoord = state[0]
+
+    if CHOSEN == "MANHATTAN_DISTANCE":
+        # A heuristic that calculates the manhattan distance to the corners
+        corners = [corner for corner in corners if state[1][corner] == False]
+        distances = []
+        for corner in corners:
+            dist = abs(xcoord - corner[0]) + abs(ycoord - corner[1])
+            distances.append(dist)
+        if len(distances) > 0:
+            return max(distances)
+        
 
     "*** YOUR CODE HERE ***"
     return 0 # Default to trivial solution
+
+
 
 class AStarCornersAgent(SearchAgent):
     "A SearchAgent for FoodSearchProblem using A* and your foodHeuristic"
@@ -455,6 +505,115 @@ def foodHeuristic(state: Tuple[Tuple, List[List]], problem: FoodSearchProblem):
     """
     position, foodGrid = state
     "*** YOUR CODE HERE ***"
+
+
+    # # 1st Heuristic: Count how many food nodes are present in the grid
+    # # Result: 3202 tiny, 12617
+    # count = 0
+    # for currentInt in foodGrid.packBits()[2:]:
+    #     while currentInt:
+    #         count += currentInt & 1
+    #         currentInt >>= 1
+    # return count
+
+    # # 2nd Heuristic: Distance to the closest food
+    # # Result: 4238 tiny
+
+    # mindDistance = 99999999999
+    # for i, row in enumerate(foodGrid):
+    #     for j, elem in enumerate(row):
+    #         if elem == True:
+    #             distance = abs(position[0] - i) + abs(position[1] - j)
+    #             mindDistance = min(mindDistance, distance)
+    # if mindDistance == 99999999999:
+    #     mindDistance = 0
+    # return mindDistance
+
+
+    # 3rd Heuristic: Avg manhattan distance to all of the food nodes
+    # Result: 136 tiny
+    # NOT CONSISTENT
+    x, y =  position
+    if foodGrid[x][y]:
+        print("FOUND")
+        return 0
+    if foodGrid.count(True) < 10:
+        count = 0
+        for currentInt in foodGrid.packBits()[2:]:
+            while currentInt:
+                count += currentInt & 1
+                currentInt >>= 1
+        return count
+    
+    
+    if foodGrid.count(True) == 0:
+        return 0
+    
+    distances = 0
+    for i, row in enumerate(foodGrid):
+        for j, elem in enumerate(row):
+            if elem == True:
+                distances += abs(position[0] - i) + abs(position[1] - j)
+    print(distances/foodGrid.count(True))
+    return distances
+
+    # # 4th Heuristic: 
+    # # Result 5109 tiny Search
+    # x, y = position
+    # values = [                  foodGrid[x][y+1], \
+    #           foodGrid[x+1][y], foodGrid[x][y], foodGrid[x-1][y], \
+    #                             foodGrid[x][y-1]]
+    # return values.count(True)
+
+    # # 5th Heuristic: Max distance to all food
+    # # 5176 tiny
+    # maxDistance = 0
+    # for i, row in enumerate(foodGrid):
+    #     for j, elem in enumerate(row):
+    #         if elem == True:
+    #             distance = abs(position[0] - i) + abs(position[1] - j)
+    #             maxDistance = max(maxDistance, distance)
+    # return maxDistance
+
+    # # 6th Heuristic: Combining max and min distances
+    # # Result: 2568
+    # mindDistance = 999999999
+    # maxDistance = 0
+    # for i, row in enumerate(foodGrid):
+    #     for j, elem in enumerate(row):
+    #         if elem == True:
+    #             distance = abs(position[0] - i) + abs(position[1] - j)
+    #             mindDistance = min(mindDistance, distance)
+    #             maxDistance = max(maxDistance, distance)
+    # if mindDistance == 999999999:
+    #     mindDistance = 0
+    # return mindDistance+maxDistance
+
+    # # 7th Heuristic: Combining max and min distances, and the count of food
+    # # Result: 1267
+    # mindDistance = 999999999
+    # maxDistance = 0
+    # count = 0
+    # for i, row in enumerate(foodGrid):
+    #     for j, elem in enumerate(row):
+    #         if elem == True:
+    #             if count < 6:
+    #                 distance = abs(position[0] - i) + abs(position[1] - j)
+    #                 mindDistance = min(mindDistance, distance)
+    #                 maxDistance = max(maxDistance, distance)
+    #                 count += 1
+
+    # if mindDistance == 999999999:
+    #     mindDistance = 0
+    # if mindDistance == 0:
+    #     return 0
+    # if count >= 6:
+    #     return count
+    # return mindDistance+maxDistance+count
+
+    # 8th: MST
+    # Result: ?
+
     return 0
 
 class ClosestDotSearchAgent(SearchAgent):

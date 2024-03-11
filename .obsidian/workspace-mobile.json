@@ -4,49 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "f1e7014bf3523c16",
+        "id": "260a8b27b0b7cb44",
         "type": "tabs",
         "children": [
           {
-            "id": "c5b42b72466a94e8",
+            "id": "3e2ed0437aaf6a0d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "COMP304/L6 - Process Management.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
-      },
-      {
-        "id": "7bc0172974908ac3",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "ad2f03822b546825",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "COMP304/slides/Lecture3-process-management.pdf"
-              }
-            }
-          },
-          {
-            "id": "da031f997b0ecfe1",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "COMP304/slides/Lecture4 - Process creation.pdf"
-              }
-            }
-          }
-        ],
-        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -112,7 +81,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "COMP304/L6 - Process Management.md",
+            "file": "COMP304/slides/Drawing 2024-03-11 15.30.06.excalidraw.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -129,7 +98,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "COMP304/L6 - Process Management.md",
+            "file": "COMP304/slides/Drawing 2024-03-11 15.30.06.excalidraw.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "COMP304/L6 - Process Management.md"
+            "file": "COMP304/slides/Drawing 2024-03-11 15.30.06.excalidraw.md"
           }
         }
       }
@@ -158,11 +127,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c5b42b72466a94e8",
+  "active": "3e2ed0437aaf6a0d",
   "lastOpenFiles": [
+    "COMP304/slides/Drawing 2024-03-11 15.30.06.excalidraw.md",
+    "COMP304/slides/Lecture1-intro.pdf",
+    "COMP304/L6 - Process Management.md",
     "COMP304/slides/Lecture4 - Process creation.pdf",
     "Reading1Plato_202403111527_39905.pdf",
-    "COMP304/L6 - Process Management.md",
     "COMP304/C_code/child_process_test.c",
     "COMP304/C_code",
     "COMP304/slides/Lecture3-process-management.pdf",
@@ -172,8 +143,6 @@
     "ETHC113/assignments/e3.docx",
     "ETHC113/assignments/e2.docx",
     "ETHC113/assignments/Assign5.docx",
-    "COMP341/Assignments/search/__pycache__/testParser.cpython-311.pyc",
-    "COMP341/Assignments/search/__pycache__/testClasses.cpython-311.pyc",
     "COMP305/lectures/How To Solve Recurrences?.md"
   ]
 }

@@ -112,7 +112,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "COMP304/slides/Lecture4 - Process creation.pdf",
+            "file": "COMP304/L6 - Process Management.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "COMP304/slides/Lecture4 - Process creation.pdf",
+            "file": "COMP304/L6 - Process Management.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,7 +141,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "COMP304/slides/Lecture4 - Process creation.pdf"
+            "file": "COMP304/L6 - Process Management.md"
           }
         }
       }
@@ -158,8 +158,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "da031f997b0ecfe1",
+  "active": "c5b42b72466a94e8",
   "lastOpenFiles": [
+    "COMP304/slides/Lecture4 - Process creation.pdf",
+    "Reading1Plato_202403111527_39905.pdf",
     "COMP304/L6 - Process Management.md",
     "COMP304/C_code/child_process_test.c",
     "COMP304/C_code",
@@ -172,7 +174,6 @@
     "ETHC113/assignments/Assign5.docx",
     "COMP341/Assignments/search/__pycache__/testParser.cpython-311.pyc",
     "COMP341/Assignments/search/__pycache__/testClasses.cpython-311.pyc",
-    "COMP341/Assignments/search/__pycache__/searchTestClasses.cpython-311.pyc",
     "COMP305/lectures/How To Solve Recurrences?.md"
   ]
 }

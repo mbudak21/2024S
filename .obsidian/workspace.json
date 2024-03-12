@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "42465383d45112da",
+        "id": "035a06fb973850fc",
         "type": "tabs",
         "children": [
           {
-            "id": "fcc2148282cf9891",
+            "id": "ae87236760fc9c65",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "COMP305/ps/Drawing 2024-03-11 15.30.06.excalidraw.md"
+                "file": "ETHC113/readings/Aristo Stuff.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP305/ps/Drawing 2024-03-11 15.30.06.excalidraw.md",
+                "file": "ETHC113/readings/Aristo Stuff.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP305/ps/Drawing 2024-03-11 15.30.06.excalidraw.md",
+                "file": "ETHC113/readings/Aristo Stuff.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP305/ps/Drawing 2024-03-11 15.30.06.excalidraw.md"
+                "file": "ETHC113/readings/Aristo Stuff.md"
               }
             }
           }
@@ -145,10 +147,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "fcc2148282cf9891",
+  "active": "ae87236760fc9c65",
   "lastOpenFiles": [
-    "COMP305/ps/ps1.pdf",
+    "ETHC113/readings/Aristo Stuff.md",
     "COMP305/ps/Drawing 2024-03-11 15.30.06.excalidraw.md",
+    "COMP305/ps/ps1.pdf",
     "Reading1Plato_202403111527_39905.pdf",
     "ETHC113/readings/Reading1.Plato.pdf",
     "ETHC113/L6 -.md",

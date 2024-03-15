@@ -5,3 +5,16 @@ We want to make **rational** agents, which acts to maximize its utility.
 - Environment
 - Actions
 - Sensors
+
+
+# Agent Types
+
+## Simple Reflex
+![[Pasted image 20240315205042.png]]
+```python
+if dirty:
+	suck()
+else:
+	move()
+```
+

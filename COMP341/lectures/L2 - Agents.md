@@ -1,5 +1,5 @@
 We want to make **rational** agents, which acts to maximize its utility.
-
+**Agent:** An autonomous entity that exists in some kind of *environment* and that *perceives* and *acts*.
 ## How do we formulate an AI problem?
 - Performance/Utility
 - Environment

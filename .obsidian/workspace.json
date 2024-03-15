@@ -11,15 +11,55 @@
             "id": "a3a4827d49930d04",
             "type": "leaf",
             "state": {
+              "type": "pdf",
+              "state": {
+                "file": "COMP341/slides/1 - Introduction.pdf"
+              }
+            }
+          },
+          {
+            "id": "cb0ee3241a3ecb7c",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "COMP341/slides/2 - Agents.pdf"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "df0ddde5332bd2ea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a8114c496ddcb49c",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Dynamic.md",
+                "file": "COMP341/lectures/L1 - Introduction.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9ae75a40ecf35c2d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "COMP341/lectures/L2 - Agents.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dynamic.md",
+                "file": "COMP341/slides/2 - Agents.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dynamic.md",
+                "file": "COMP341/slides/2 - Agents.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dynamic.md"
+                "file": "COMP341/slides/2 - Agents.pdf"
               }
             }
           }
@@ -147,8 +187,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "eb88a1bbdbd7871b",
+  "active": "cb0ee3241a3ecb7c",
   "lastOpenFiles": [
+    "COMP341/slides/1 - Introduction.pdf",
+    "COMP341/lectures/L2 - Agents.md",
+    "COMP341/slides/2 - Agents.pdf",
+    "COMP341/lectures/L1 - Introduction.md",
+    "Dynamic.md",
     "COMP341/slides/7 - Adversarial Search.pdf",
     "COMP341/slides/6 - CSPs.pdf",
     "COMP341/slides/5 - LocalSearch.pdf",
@@ -164,19 +209,13 @@
     "COMP305/lectures/How To Solve Recurrences.md",
     "COMP304/L7 -.md",
     "COMP304/slides/Lecture4 - Process creation.pdf",
-    "COMP304/slides/Lecture3-process-management.pdf",
-    "COMP304/slides/Lecture1-intro.pdf",
-    "COMP304/slides/Untitled",
     "COMP304/L6 - Process Management.md",
     "COMP304/L2 - Operating System Structure.md",
     "COMP341/Assignments/tutorial/lec 5.md",
     "images/Pasted image 20240302220953.png",
     "images/Pasted image 20240302220515.png",
-    "COMP341/lectures/L2 - Agents.md",
-    "COMP341/lectures/L1 - Introduction.md",
     "Pasted image 20240302220953.png",
     "Pasted image 20240302220515.png",
-    "Dynamic.md",
     "COMP305/lectures/L2 - MatMul, Recurrences.md",
     "COMP305/lectures/L3 - Convex Hull, Master Thm.md",
     "COMP305/lectures/L4 - Medians, Induction.md",

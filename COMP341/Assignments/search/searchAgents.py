@@ -507,14 +507,14 @@ def foodHeuristic(state: Tuple[Tuple, List[List]], problem: FoodSearchProblem):
     "*** YOUR CODE HERE ***"
 
 
-    # # 1st Heuristic: Count how many food nodes are present in the grid
-    # # Result: 3202 tiny, 12617
-    # count = 0
-    # for currentInt in foodGrid.packBits()[2:]:
-    #     while currentInt:
-    #         count += currentInt & 1
-    #         currentInt >>= 1
-    # return count
+    # 1st Heuristic: Count how many food nodes are present in the grid
+    # Result: 3202 tiny, 12617
+    count = 0
+    for currentInt in foodGrid.packBits()[2:]:
+        while currentInt:
+            count += currentInt & 1
+            currentInt >>= 1
+    return count
 
     # # 2nd Heuristic: Distance to the closest food
     # # Result: 4238 tiny
@@ -533,29 +533,28 @@ def foodHeuristic(state: Tuple[Tuple, List[List]], problem: FoodSearchProblem):
     # 3rd Heuristic: Avg manhattan distance to all of the food nodes
     # Result: 136 tiny
     # NOT CONSISTENT
-    x, y =  position
-    if foodGrid[x][y]:
-        print("FOUND")
-        return 0
-    if foodGrid.count(True) < 10:
-        count = 0
-        for currentInt in foodGrid.packBits()[2:]:
-            while currentInt:
-                count += currentInt & 1
-                currentInt >>= 1
-        return count
+    # x, y =  position
+    # food_count = foodGrid.count(True)
+    # if food_count == 0:
+    #     return 0
+    # if food_count < 10:
+    #     count = 0
+    #     for currentInt in foodGrid.packBits()[2:]:
+    #         while currentInt:
+    #             count += currentInt & 1
+    #             currentInt >>= 1
+    #     return count
     
     
-    if foodGrid.count(True) == 0:
-        return 0
     
-    distances = 0
-    for i, row in enumerate(foodGrid):
-        for j, elem in enumerate(row):
-            if elem == True:
-                distances += abs(position[0] - i) + abs(position[1] - j)
-    print(distances/foodGrid.count(True))
-    return distances
+    
+    # distances = 0
+    # for i, row in enumerate(foodGrid):
+    #     for j, elem in enumerate(row):
+    #         if elem == True:
+    #             distances += abs(position[0] - i) + abs(position[1] - j)
+    # print(distances/food_count)
+    # return distances
 
     # # 4th Heuristic: 
     # # Result 5109 tiny Search

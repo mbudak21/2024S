@@ -4,17 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "035a06fb973850fc",
+        "id": "d49878aee4e2d4d7",
         "type": "tabs",
         "children": [
           {
-            "id": "ae87236760fc9c65",
+            "id": "a3a4827d49930d04",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "ETHC113/readings/Reading1.Plato.pdf"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -83,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ETHC113/readings/Reading1.Plato.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ETHC113/readings/Reading1.Plato.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "ETHC113/readings/Reading1.Plato.pdf"
-              }
+              "state": {}
             }
           }
         ]
@@ -145,14 +139,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ae87236760fc9c65",
+  "active": "a3a4827d49930d04",
   "lastOpenFiles": [
+    "ETHC113/readings/Reading1.Plato.pdf",
     "ETHC113/readings/readings2.Aristotle_Mill.pdf",
     "ETHC113/readings/Aristo Stuff.md",
     "COMP305/ps/Drawing 2024-03-11 15.30.06.excalidraw.md",
     "COMP305/ps/ps1.pdf",
     "Reading1Plato_202403111527_39905.pdf",
-    "ETHC113/readings/Reading1.Plato.pdf",
     "ETHC113/L6 -.md",
     "ETHC113/lec4.md",
     "COMP305/lectures/Amortization.md",

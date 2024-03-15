@@ -643,10 +643,7 @@ class ClosestDotSearchAgent(SearchAgent):
         walls = gameState.getWalls()
         problem = AnyFoodSearchProblem(gameState)
 
-        print("Start: ", startPosition)
-        print("Food: ", food.asList())
-        print("Walls: ", walls.asList())
-        print("Problem: ", problem)
+        
 
 class AnyFoodSearchProblem(PositionSearchProblem):
     """
@@ -681,8 +678,9 @@ class AnyFoodSearchProblem(PositionSearchProblem):
         """
         x,y = state
 
-        if self.food[x][y]:
-            return True
+        return self.food[x][y]
+    
+
 def mazeDistance(point1: Tuple[int, int], point2: Tuple[int, int], gameState: pacman.GameState) -> int:
     """
     Returns the maze distance between any two points, using the search functions

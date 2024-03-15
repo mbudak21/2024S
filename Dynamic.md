@@ -1,4 +1,4 @@
-# COMP301 
-Midterm at the 6th week.
+# COMP341 
 
-test upload
+## Midterm Check List 19/03/2024
+- [ ] 

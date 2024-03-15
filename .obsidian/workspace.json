@@ -26,6 +26,16 @@
                 "file": "COMP341/slides/2 - Agents.pdf"
               }
             }
+          },
+          {
+            "id": "576fc91a017915f0",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "COMP341/slides/3 - Uninformed Search.pdf"
+              }
+            }
           }
         ],
         "currentTab": 1
@@ -125,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP341/lectures/L2 - Agents.md",
+                "file": "COMP341/slides/2 - Agents.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP341/lectures/L2 - Agents.md",
+                "file": "COMP341/slides/2 - Agents.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP341/lectures/L2 - Agents.md"
+                "file": "COMP341/slides/2 - Agents.pdf"
               }
             }
           }
@@ -187,12 +197,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9ae75a40ecf35c2d",
+  "active": "cb0ee3241a3ecb7c",
   "lastOpenFiles": [
-    "Pasted image 20240315205042.png",
-    "COMP341/slides/2 - Agents.pdf",
-    "COMP341/slides/1 - Introduction.pdf",
     "COMP341/lectures/L2 - Agents.md",
+    "COMP341/slides/2 - Agents.pdf",
+    "COMP341/slides/3 - Uninformed Search.pdf",
+    "Pasted image 20240315205042.png",
+    "COMP341/slides/1 - Introduction.pdf",
     "COMP341/lectures/L1 - Introduction.md",
     "Dynamic.md",
     "COMP341/slides/7 - Adversarial Search.pdf",
@@ -209,7 +220,6 @@
     "COMP305/lectures/Amortization.md",
     "COMP305/lectures/How To Solve Recurrences.md",
     "COMP304/L7 -.md",
-    "COMP304/slides/Lecture4 - Process creation.pdf",
     "COMP304/L6 - Process Management.md",
     "COMP304/L2 - Operating System Structure.md",
     "COMP341/Assignments/tutorial/lec 5.md",

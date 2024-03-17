@@ -30,7 +30,9 @@ Choose the next state based on heuristic + actual cost
 Measures how far away from the goal is a state.
 Becomes 0 if the state is a goal state.
 ### Admissability
-We need the heuristic to be less than actual costs
+- **Under-estimate** the cost to goal: $0 \le h(s) \le g(s)$ 
+- Zero for any goal state
+- Non-zero for all others
 Example: Manhattan Distance
 
  

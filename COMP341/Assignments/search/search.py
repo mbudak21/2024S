@@ -172,7 +172,7 @@ def uniformCostSearch(problem: SearchProblem):
         if curr_node[0] not in closedSet:
             closedSet.append(curr_node[0])
             if problem.isGoalState(curr_node[0]):
-                print("Goal found")
+                #print("Goal found")
                 return curr_node[1] # return the actions
             for child in problem.getSuccessors(curr_node[0]):
                 if child[0] not in closedSet:
@@ -218,8 +218,10 @@ def aStarSearch(problem: SearchProblem, heuristic=nullHeuristic):
                 return curr_node[1] # return the actions
             for child in problem.getSuccessors(curr_node[0]):
                 if child[0] not in closedSet:
-                    item = (child[0],curr_node[1]+[child[1]], child[2])
-                    priority = problem.getCostOfActions(curr_node[1]+[child[1]]) + heuristic(child[0], problem)
+                    new_actions = curr_node[1].copy()
+                    new_actions.append(child[1])
+                    item = (child[0],new_actions, child[2])
+                    priority = problem.getCostOfActions(new_actions) + heuristic(child[0], problem)
                     openSet.push(item, priority)
     return []
 

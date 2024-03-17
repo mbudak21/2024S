@@ -8,27 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a3a4827d49930d04",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "COMP341/slides/1 - Introduction.pdf"
-              }
-            }
-          },
-          {
-            "id": "cb0ee3241a3ecb7c",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "COMP341/slides/2 - Agents.pdf"
-              }
-            }
-          },
-          {
-            "id": "576fc91a017915f0",
+            "id": "fe4d208e5323b370",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -37,39 +17,25 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "df0ddde5332bd2ea",
         "type": "tabs",
         "children": [
           {
-            "id": "a8114c496ddcb49c",
+            "id": "576fc91a017915f0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMP341/lectures/L1 - Introduction.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9ae75a40ecf35c2d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "COMP341/lectures/L2 - Agents.md",
+                "file": "COMP341/lectures/L3 - Uninformed Search.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -135,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP341/lectures/L2 - Agents.md",
+                "file": "COMP341/slides/3 - Uninformed Search.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP341/lectures/L2 - Agents.md",
+                "file": "COMP341/slides/3 - Uninformed Search.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP341/lectures/L2 - Agents.md"
+                "file": "COMP341/slides/3 - Uninformed Search.pdf"
               }
             }
           }
@@ -198,11 +164,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9ae75a40ecf35c2d",
+  "active": "fe4d208e5323b370",
   "lastOpenFiles": [
-    "COMP341/slides/2 - Agents.pdf",
-    "COMP341/lectures/L2 - Agents.md",
+    "COMP341/lectures/L3 - Uninformed Search.md",
     "COMP341/slides/3 - Uninformed Search.pdf",
+    "COMP341/lectures/L2 - Agents.md",
+    "COMP341/slides/2 - Agents.pdf",
     "Pasted image 20240315205042.png",
     "COMP341/slides/1 - Introduction.pdf",
     "COMP341/lectures/L1 - Introduction.md",

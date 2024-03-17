@@ -8,6 +8,10 @@ We want to make **rational** agents, which acts to maximize its utility.
 
 
 # Agent Types
+- **Simple Reflex Agents:** React to the current percept with a direct action, without considering the future.
+- **Model-Based Reflex Agents:** Consider the current state and the internal model of the world to choose an action, allowing for a more informed decision than simple reflex agents.
+- **Goal-Based Agents:** Make decisions based on the likelihood of actions bringing them closer to achieving predefined goals, considering future outcomes.
+- **Utility-Based Agents:** Optimize their actions to maximize a utility function, evaluating the desirability of different states or outcomes for more nuanced decision-making.
 
 ## Simple Reflex
 ![[Pasted image 20240315205042.png]]

@@ -508,7 +508,7 @@ def foodHeuristic(state: Tuple[Tuple, List[List]], problem: FoodSearchProblem):
 
 
     # 1st Heuristic: Count how many food nodes are present in the grid
-    # Result: 3202 tiny, 12617
+    # Result: 3202 tiny, 12517
     count = 0
     for currentInt in foodGrid.packBits()[2:]:
         while currentInt:

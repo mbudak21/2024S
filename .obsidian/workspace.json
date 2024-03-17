@@ -8,6 +8,26 @@
         "type": "tabs",
         "children": [
           {
+            "id": "94b3ea5ec88f237c",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "COMP341/slides/7 - Adversarial Search.pdf"
+              }
+            }
+          },
+          {
+            "id": "6f9760ad53d0f1a1",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "COMP341/slides/6 - CSPs.pdf"
+              }
+            }
+          },
+          {
             "id": "04ee86b5d068eed8",
             "type": "leaf",
             "state": {
@@ -37,7 +57,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "8d4530e8a93218d4",
@@ -131,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP341/lectures/L3&4 - Search Algorithms.md",
+                "file": "COMP341/slides/6 - CSPs.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP341/lectures/L3&4 - Search Algorithms.md",
+                "file": "COMP341/slides/6 - CSPs.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP341/lectures/L3&4 - Search Algorithms.md"
+                "file": "COMP341/slides/6 - CSPs.pdf"
               }
             }
           }
@@ -194,9 +215,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "47820cf838daa74c",
+  "active": "6f9760ad53d0f1a1",
   "lastOpenFiles": [
     "COMP341/slides/5 - LocalSearch.pdf",
+    "COMP341/slides/7 - Adversarial Search.pdf",
+    "COMP341/slides/6 - CSPs.pdf",
     "COMP341/lectures/L3&4 - Search Algorithms.md",
     "images/Pasted image 20240317232736.png",
     "COMP341/slides/4 - InformedSearch.pdf",
@@ -212,8 +235,6 @@
     "COMP341/slides/1 - Introduction.pdf",
     "COMP341/lectures/L1 - Introduction.md",
     "Dynamic.md",
-    "COMP341/slides/7 - Adversarial Search.pdf",
-    "COMP341/slides/6 - CSPs.pdf",
     "ETHC113/readings/Reading1.Plato.pdf",
     "ETHC113/readings/readings2.Aristotle_Mill.pdf",
     "ETHC113/readings/Aristo Stuff.md",

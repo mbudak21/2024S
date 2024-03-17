@@ -110,7 +110,9 @@ def depthFirstSearch(problem):
             for child in problem.getSuccessors(curr_node[0]):
                 #print(child)
                 if child[0] not in closedSet:
-                    openSet.push((child[0],curr_node[1]+[child[1]],child[2]))
+                    new_actions = curr_node[1].copy()
+                    new_actions.append(child[1])
+                    openSet.push((child[0], new_actions, child[2]))
 
     print("WARNING: Couldn't find a path")
     return []
@@ -133,18 +135,19 @@ def breadthFirstSearch(problem: SearchProblem):
     openSet.push((startState, [], 0))
 
     while (not openSet.isEmpty()):
-        
         curr_node = openSet.pop()
 
         if curr_node[0] not in closedSet:
             closedSet.append(curr_node[0])
             if problem.isGoalState(curr_node[0]):
-                print("Goal found")
+                #print("Goal found")
                 return curr_node[1] # return the actions
             for child in problem.getSuccessors(curr_node[0]):
                 #print(child)
                 if child[0] not in closedSet:
-                    openSet.push((child[0],curr_node[1]+[child[1]],child[2]))
+                    new_actions = curr_node[1].copy()
+                    new_actions.append(child[1])
+                    openSet.push((child[0], new_actions, child[2]))
     print("WARNING: Couldn't find a path")
     return []
 
@@ -173,8 +176,10 @@ def uniformCostSearch(problem: SearchProblem):
                 return curr_node[1] # return the actions
             for child in problem.getSuccessors(curr_node[0]):
                 if child[0] not in closedSet:
-                    item = (child[0],curr_node[1]+[child[1]], child[2])
-                    priority = problem.getCostOfActions(curr_node[1]+[child[1]])
+                    actions = curr_node[1].copy()
+                    actions.append(child[1])
+                    item = (child[0],actions, child[2])
+                    priority = problem.getCostOfActions(actions)
                     openSet.push(item, priority)
     print("WARNING: Couldn't find a path")
     return []

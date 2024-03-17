@@ -36,4 +36,18 @@ The structure of a Model-Based Reflex Agent can be described as follows:
 
 ## Goal Based Agent
 
+Goal-Based Agents operate by considering the future outcomes of their actions and how these actions will help them achieve specific goals. Unlike Simple Reflex Agents that react to the current situation without regard for the future, Goal-Based Agents have a set of desirable states they aim to reach. The decision-making process involves deliberation on which action, among many, would bring the agent closer to its goal(s).
+### Characteristics:
+- **Goal Information:** The agent has knowledge of one or more goals that describe desirable situations.
+- **Predictive Capability:** The agent can predict the outcome of its actions.
+- **Decision Making:** Decisions are made based on the likelihood of actions leading to goal achievement.
+### Example:
+Consider a robotic vacuum cleaner designed as a Goal-Based Agent. Instead of merely reacting to dirt detected under it (Simple Reflex) or following a set of rules to keep the internal model of the world updated (Model-Based Reflex), it also has a goal, such as "clean the entire house". The robot will evaluate which action (moving to different rooms, cleaning, recharging its battery, etc.) at any given time will maximize its chances of achieving this goal.
+
 ## Utility Based Agent
+Utility-Based Agents take the concept of Goal-Based Agents further by quantifying how desirable each outcome is. Goals are a binary concept (either achieved or not), but utilities allow for a more nuanced evaluation of the state of the world. Utility is a measure of happiness or satisfaction; it's a way to express the preferences of the agent over different states.
+### Characteristics:
+- **Utility Function:** A utility function assigns a numerical value to each state, representing the degree of happiness or preference for that state.
+- **Optimization:** The agent selects actions to maximize its utility, aiming for the highest level of satisfaction according to its preferences.
+### Example:
+A Utility-Based robotic vacuum cleaner might not only have the goal to clean the entire house but will also evaluate each potential action based on the utility. For example, it might assign higher utility to cleaning areas that are frequently used and lower utility to areas that are seldom dirty or used. Thus, the robot might prioritize cleaning the living room over a spare bedroom, or it might decide to recharge its battery at a strategic time that maximizes its overall utility, considering the balance between cleaning effectiveness and energy efficiency.

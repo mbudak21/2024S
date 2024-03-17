@@ -39,5 +39,5 @@ Becomes 0 if the state is a goal state.
 Example: Manhattan Distance
 ![[Pasted image 20240317230721.png]]
 ### Consistency
-
+A heuristic is consistent if it is monotonically decreasing along the path to the goal.
  

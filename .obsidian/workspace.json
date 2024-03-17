@@ -28,19 +28,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "6c6ab2270e89ee68",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2024-03-17 21.25.37.excalidraw.md"
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -106,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2024-03-17 21.25.37.excalidraw.md",
+                "file": "COMP341/lectures/L4 - Informed Search.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2024-03-17 21.25.37.excalidraw.md",
+                "file": "COMP341/lectures/L4 - Informed Search.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-03-17 21.25.37.excalidraw.md"
+                "file": "COMP341/lectures/L4 - Informed Search.md"
               }
             }
           }
@@ -169,10 +159,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6c6ab2270e89ee68",
+  "active": "576fc91a017915f0",
   "lastOpenFiles": [
-    "COMP341/lectures/L4 - Informed Search.md",
     "Excalidraw/Drawing 2024-03-17 21.25.37.excalidraw.md",
+    "COMP341/lectures/L4 - Informed Search.md",
     "Excalidraw",
     "COMP341/lectures/L3 - Uninformed Search.md",
     "COMP341/lectures/L2 - Agents.md",

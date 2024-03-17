@@ -277,12 +277,11 @@ class CornersProblem(search.SearchProblem):
     You must select a suitable state space and successor function
     """
 
-    def __init__(self, startingGameState: pacman.GameState, heuristic_fn = lambda x: 1):
+    def __init__(self, startingGameState: pacman.GameState):
         """
         Stores the walls, pacman's starting position and corners.
         """
         self.startingPosition = startingGameState.getPacmanPosition()
-        self.heuristic = heuristic_fn
 
         self.walls = startingGameState.getWalls()
         top, right = self.walls.height-2, self.walls.width-2
@@ -341,13 +340,12 @@ class CornersProblem(search.SearchProblem):
                 new_pos = (nextx, nexty)
                 # print("pos:", new_pos, " vals: ", state[1].keys())
                 corner_data = state[1]
-                if new_pos in state[1].keys():
+                if new_pos in state[1].keys(): # If the new position is a corner
                     corner_data = corner_data.copy() # Copy the dict
-                    corner_data[new_pos] = True # Found a corner!
+                    corner_data[new_pos] = True # Set the corner to True
                     
                 nextState = (new_pos, corner_data)
-                cost = self.heuristic(new_pos)
-                successors.append( (nextState, action, cost) )
+                successors.append( (nextState, action, 1) ) 
 
                 
         self._expanded += 1 # DO NOT CHANGE

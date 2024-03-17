@@ -6,4 +6,4 @@
 
 ## Uniform Cost Search
 Pick based on lowest cost, instead of least or most depth.
-
+- Guaranteed its optimal.

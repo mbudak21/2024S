@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "d49878aee4e2d4d7",
+        "id": "df0ddde5332bd2ea",
         "type": "tabs",
         "children": [
           {
@@ -16,13 +16,7 @@
                 "file": "COMP341/slides/3 - Uninformed Search.pdf"
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "df0ddde5332bd2ea",
-        "type": "tabs",
-        "children": [
+          },
           {
             "id": "576fc91a017915f0",
             "type": "leaf",
@@ -35,7 +29,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "5ebe61e7b4befa70",
@@ -101,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP341/slides/3 - Uninformed Search.pdf",
+                "file": "COMP341/lectures/L3 - Uninformed Search.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP341/slides/3 - Uninformed Search.pdf",
+                "file": "COMP341/lectures/L3 - Uninformed Search.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP341/slides/3 - Uninformed Search.pdf"
+                "file": "COMP341/lectures/L3 - Uninformed Search.md"
               }
             }
           }
@@ -164,10 +160,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "fe4d208e5323b370",
+  "active": "576fc91a017915f0",
   "lastOpenFiles": [
-    "COMP341/lectures/L3 - Uninformed Search.md",
     "COMP341/slides/3 - Uninformed Search.pdf",
+    "COMP341/lectures/L3 - Uninformed Search.md",
     "COMP341/lectures/L2 - Agents.md",
     "COMP341/slides/2 - Agents.pdf",
     "Pasted image 20240315205042.png",

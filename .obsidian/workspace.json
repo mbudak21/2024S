@@ -8,6 +8,16 @@
         "type": "tabs",
         "children": [
           {
+            "id": "04ee86b5d068eed8",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "COMP341/slides/5 - LocalSearch.pdf"
+              }
+            }
+          },
+          {
             "id": "029c6915946cb110",
             "type": "leaf",
             "state": {
@@ -49,16 +59,13 @@
             "id": "576fc91a017915f0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "COMP341/lectures/L3&4 - Search Algorithms.md",
-                "mode": "source",
-                "source": false
+                "file": "images/Pasted image 20240317232736.png"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -187,25 +194,26 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "576fc91a017915f0",
+  "active": "47820cf838daa74c",
   "lastOpenFiles": [
-    "Pasted image 20240317230721.png",
-    "Pasted image 20240317230043.png",
-    "COMP341/lectures/L4 - Informed Search.md",
+    "COMP341/slides/5 - LocalSearch.pdf",
     "COMP341/lectures/L3&4 - Search Algorithms.md",
+    "images/Pasted image 20240317232736.png",
     "COMP341/slides/4 - InformedSearch.pdf",
+    "images/Pasted image 20240317230721.png",
+    "images/Pasted image 20240317230043.png",
+    "COMP341/lectures/L4 - Informed Search.md",
     "Excalidraw/Drawing 2024-03-17 21.25.37.excalidraw.md",
     "Excalidraw",
     "COMP341/lectures/L2 - Agents.md",
     "COMP341/slides/3 - Uninformed Search.pdf",
     "COMP341/slides/2 - Agents.pdf",
-    "Pasted image 20240315205042.png",
+    "images/Pasted image 20240315205042.png",
     "COMP341/slides/1 - Introduction.pdf",
     "COMP341/lectures/L1 - Introduction.md",
     "Dynamic.md",
     "COMP341/slides/7 - Adversarial Search.pdf",
     "COMP341/slides/6 - CSPs.pdf",
-    "COMP341/slides/5 - LocalSearch.pdf",
     "ETHC113/readings/Reading1.Plato.pdf",
     "ETHC113/readings/readings2.Aristotle_Mill.pdf",
     "ETHC113/readings/Aristo Stuff.md",

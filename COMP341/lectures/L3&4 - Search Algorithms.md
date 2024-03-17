@@ -29,6 +29,10 @@ Choose the next state based on heuristic + actual cost
 - Optimality depends on h(s)
 - Time complexity also depends on h(s)
 - Space complexity is Exponential
+
+### Bi-Directional A*
+If we have access to goals, start an A* search from start and goal nodes, stop when searches meet.
+- Halves the space complexity (still exponential)
 ## Heuristics
 Measures how far away from the goal is a state.
 Becomes 0 if the state is a goal state.
@@ -40,4 +44,19 @@ Example: Manhattan Distance
 ![[Pasted image 20240317230721.png]]
 ### Consistency
 A heuristic is consistent if it is monotonically decreasing along the path to the goal.
+
+
+### Dominance
+![[Pasted image 20240317232736.png]]
  
+## Beyond A*
+• Limited Space A* (aka Beam Search) 
+• Pre-compute costs for certain nodes and use a version of triangle equality 
+• Learning heuristics 
+• Online A*
+• Dynamic Environment: D*
+
+## Local Search
+Disregard the path, just focus on getting the goal state.
+- Solution is the goal state itself.
+- Search for a

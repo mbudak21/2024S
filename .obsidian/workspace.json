@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMP341/lectures/L3 - Uninformed Search.md",
+                "file": "COMP341/lectures/L4 - Informed Search.md",
                 "mode": "source",
                 "source": false
               }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP341/lectures/L3 - Uninformed Search.md",
+                "file": "COMP341/lectures/L4 - Informed Search.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP341/lectures/L3 - Uninformed Search.md",
+                "file": "COMP341/lectures/L4 - Informed Search.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP341/lectures/L3 - Uninformed Search.md"
+                "file": "COMP341/lectures/L4 - Informed Search.md"
               }
             }
           }
@@ -161,10 +161,10 @@
   },
   "active": "576fc91a017915f0",
   "lastOpenFiles": [
+    "COMP341/lectures/L3 - Uninformed Search.md",
     "COMP341/lectures/L2 - Agents.md",
     "COMP341/lectures/L4 - Informed Search.md",
     "COMP341/slides/3 - Uninformed Search.pdf",
-    "COMP341/lectures/L3 - Uninformed Search.md",
     "COMP341/slides/2 - Agents.pdf",
     "Pasted image 20240315205042.png",
     "COMP341/slides/1 - Introduction.pdf",

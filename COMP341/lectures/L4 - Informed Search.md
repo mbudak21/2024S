@@ -13,3 +13,4 @@ Choose the next state based on heuristic + actual cost
 We need the heuristic to be less than actual costs
 Example: Manhattan Distance
 
+ 

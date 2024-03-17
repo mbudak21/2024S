@@ -29,7 +29,7 @@ Choose the next state based on heuristic + actual cost
 - Optimality depends on h(s)
 - Time complexity also depends on h(s)
 - Space complexity is Exponential
-### Heuristic
+## Heuristics
 Measures how far away from the goal is a state.
 Becomes 0 if the state is a goal state.
 ### Admissability
@@ -38,6 +38,6 @@ Becomes 0 if the state is a goal state.
 - Non-zero for all others
 Example: Manhattan Distance
 ![[Pasted image 20240317230721.png]]
-
+### Consistency
 
  

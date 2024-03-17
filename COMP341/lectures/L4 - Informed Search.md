@@ -7,5 +7,9 @@ choose the next state based on the sole heuristic value
 ## A* Search
 Choose the next state based on heuristic + actual cost
 
-- Generally not optimal
-- 
+- Not optimal if the heuristic is not admissable.
+
+### Admissability
+We need the heuristic to be less than actual costs
+Example: Manhattan Distance
+

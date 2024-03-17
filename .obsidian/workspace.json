@@ -28,9 +28,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6c6ab2270e89ee68",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-03-17 21.25.37.excalidraw.md"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -96,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP341/lectures/L4 - Informed Search.md",
+                "file": "Excalidraw/Drawing 2024-03-17 21.25.37.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP341/lectures/L4 - Informed Search.md",
+                "file": "Excalidraw/Drawing 2024-03-17 21.25.37.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP341/lectures/L4 - Informed Search.md"
+                "file": "Excalidraw/Drawing 2024-03-17 21.25.37.excalidraw.md"
               }
             }
           }
@@ -159,10 +169,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "576fc91a017915f0",
+  "active": "6c6ab2270e89ee68",
   "lastOpenFiles": [
-    "COMP341/lectures/L3 - Uninformed Search.md",
     "COMP341/lectures/L4 - Informed Search.md",
+    "Excalidraw/Drawing 2024-03-17 21.25.37.excalidraw.md",
+    "Excalidraw",
+    "COMP341/lectures/L3 - Uninformed Search.md",
     "COMP341/lectures/L2 - Agents.md",
     "COMP341/slides/3 - Uninformed Search.pdf",
     "COMP341/slides/2 - Agents.pdf",
@@ -178,7 +190,6 @@
     "ETHC113/readings/Aristo Stuff.md",
     "COMP305/ps/Drawing 2024-03-11 15.30.06.excalidraw.md",
     "COMP305/ps/ps1.pdf",
-    "Reading1Plato_202403111527_39905.pdf",
     "ETHC113/L6 -.md",
     "ETHC113/lec4.md",
     "COMP305/lectures/Amortization.md",

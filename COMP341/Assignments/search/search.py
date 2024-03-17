@@ -101,7 +101,6 @@ def depthFirstSearch(problem):
     openSet.push((startState, [], 0))
 
     while (not openSet.isEmpty()):
-        
         curr_node = openSet.pop()
 
         if curr_node[0] not in closedSet:
@@ -109,7 +108,7 @@ def depthFirstSearch(problem):
             if problem.isGoalState(curr_node[0]):
                 return curr_node[1] # return the actions
             for child in problem.getSuccessors(curr_node[0]):
-                print(child)
+                #print(child)
                 if child[0] not in closedSet:
                     openSet.push((child[0],curr_node[1]+[child[1]],child[2]))
 

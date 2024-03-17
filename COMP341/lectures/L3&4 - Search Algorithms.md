@@ -25,7 +25,10 @@ Expand next state based on the sole heuristic value
 ## A* Search f(s) = g(s) + h(s)
 Choose the next state based on heuristic + actual cost
 
-- Not optimal if the heuristic is not admissable.
+- Is Complete (under some conditions)
+- Optimality depends on h(s)
+- Time complexity also depends on h(s)
+- Space complexity is Exponential
 ### Heuristic
 Measures how far away from the goal is a state.
 Becomes 0 if the state is a goal state.
@@ -34,5 +37,7 @@ Becomes 0 if the state is a goal state.
 - Zero for any goal state
 - Non-zero for all others
 Example: Manhattan Distance
+![[Pasted image 20240317230721.png]]
+
 
  

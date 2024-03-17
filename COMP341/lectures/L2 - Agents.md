@@ -19,3 +19,5 @@ else:
 ```
 
 They do not consider the aftermath of their actions, they just reflex.
+
+## Model Based Reflex Agent

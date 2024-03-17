@@ -56,7 +56,8 @@ A heuristic is consistent if it is monotonically decreasing along the path to th
 • Online A*
 • Dynamic Environment: D*
 
-## Local Search
+# Local Search
 Disregard the path, just focus on getting the goal state.
 - Solution is the goal state itself.
-- Search for a
+- Search for a solution when the path doesn't matter
+- Get to a `better` state (best if possible)

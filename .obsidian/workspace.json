@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP341/lectures/L3&4 - Search Algorithms.md",
+                "file": "COMP341/slides/5 - LocalSearch.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP341/lectures/L3&4 - Search Algorithms.md",
+                "file": "COMP341/slides/5 - LocalSearch.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP341/lectures/L3&4 - Search Algorithms.md"
+                "file": "COMP341/slides/5 - LocalSearch.pdf"
               }
             }
           }
@@ -194,10 +194,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "47820cf838daa74c",
+  "active": "04ee86b5d068eed8",
   "lastOpenFiles": [
-    "COMP341/slides/5 - LocalSearch.pdf",
     "COMP341/lectures/L3&4 - Search Algorithms.md",
+    "COMP341/slides/5 - LocalSearch.pdf",
     "images/Pasted image 20240317232736.png",
     "COMP341/slides/4 - InformedSearch.pdf",
     "images/Pasted image 20240317230721.png",

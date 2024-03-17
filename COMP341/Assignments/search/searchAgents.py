@@ -398,6 +398,7 @@ def cornersHeuristic(state: Any, problem: CornersProblem):
     if CHOSEN == "MANHATTAN_DISTANCE":
         # A heuristic that calculates the manhattan distance to the corners
         corners = [corner for corner in corners if state[1][corner] == False]
+        print(corners)
         distances = []
         for corner in corners:
             dist = abs(xcoord - corner[0]) + abs(ycoord - corner[1])

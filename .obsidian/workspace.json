@@ -80,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "5ebe61e7b4befa70",
@@ -162,9 +161,10 @@
   },
   "active": "576fc91a017915f0",
   "lastOpenFiles": [
+    "COMP341/lectures/L2 - Agents.md",
+    "COMP341/lectures/L4 - Informed Search.md",
     "COMP341/slides/3 - Uninformed Search.pdf",
     "COMP341/lectures/L3 - Uninformed Search.md",
-    "COMP341/lectures/L2 - Agents.md",
     "COMP341/slides/2 - Agents.pdf",
     "Pasted image 20240315205042.png",
     "COMP341/slides/1 - Introduction.pdf",

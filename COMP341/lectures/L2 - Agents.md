@@ -6,7 +6,11 @@ We want to make **rational** agents, which acts to maximize its utility.
 - Actions
 - Sensors
 
-
+### Search Problem
+States (configs of the world)
+Actions and costs
+Successor Function (world dynamics)
+Start sate and goal test
 # Agent Types
 - **Simple Reflex Agents:** React to the current percept with a direct action, without considering the future.
 - **Model-Based Reflex Agents:** Consider the current state and the internal model of the world to choose an action, allowing for a more informed decision than simple reflex agents.

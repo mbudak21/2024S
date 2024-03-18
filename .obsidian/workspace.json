@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMP341/lectures/L3&4 - Search Algorithms.md",
+                "file": "COMP341/lectures/L5.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "5ebe61e7b4befa70",
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP341/lectures/L3&4 - Search Algorithms.md",
+                "file": "COMP341/lectures/L5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP341/lectures/L3&4 - Search Algorithms.md",
+                "file": "COMP341/lectures/L5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP341/lectures/L3&4 - Search Algorithms.md"
+                "file": "COMP341/lectures/L5.md"
               }
             }
           }
@@ -163,9 +164,10 @@
   },
   "active": "47820cf838daa74c",
   "lastOpenFiles": [
+    "COMP341/lectures/L3&4 - Search Algorithms.md",
+    "COMP341/lectures/L5.md",
     "images/Pasted image 20240317232736.png",
     "COMP341/lectures/L2 - Agents.md",
-    "COMP341/lectures/L3&4 - Search Algorithms.md",
     "COMP341/slides/6 - CSPs.pdf",
     "COMP341/slides/5 - LocalSearch.pdf",
     "COMP341/slides/7 - Adversarial Search.pdf",

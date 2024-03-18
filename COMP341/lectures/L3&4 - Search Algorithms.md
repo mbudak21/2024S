@@ -26,7 +26,7 @@ Expand next state based on the sole heuristic value
 Choose the next state based on heuristic + actual cost
 
 - Is Complete (under some conditions)
-- Optimality depends on h(s)
+- Optimality if h(s) is **admissable**
 - Time complexity also depends on h(s)
 - Space complexity is Exponential
 
@@ -37,7 +37,7 @@ If we have access to goals, start an A* search from start and goal nodes, stop w
 Measures how far away from the goal is a state.
 Becomes 0 if the state is a goal state.
 ### Admissability
-- **Under-estimate** the cost to goal: $0 \le h(s) \le g(s)$ 
+- **Under-estimate** the cost to goal: $\forall s, 0 \le h(s) \le h^*(s)$ 
 - Zero for any goal state
 - Non-zero for all others
 Example: Manhattan Distance

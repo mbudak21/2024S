@@ -4,67 +4,8 @@
     "type": "split",
     "children": [
       {
-        "id": "df0ddde5332bd2ea",
-        "type": "tabs",
-        "dimension": 12.987012987012985,
-        "children": [
-          {
-            "id": "94b3ea5ec88f237c",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "COMP341/slides/7 - Adversarial Search.pdf"
-              }
-            }
-          },
-          {
-            "id": "6f9760ad53d0f1a1",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "COMP341/slides/6 - CSPs.pdf"
-              }
-            }
-          },
-          {
-            "id": "04ee86b5d068eed8",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "COMP341/slides/5 - LocalSearch.pdf"
-              }
-            }
-          },
-          {
-            "id": "029c6915946cb110",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "COMP341/slides/4 - InformedSearch.pdf"
-              }
-            }
-          },
-          {
-            "id": "fe4d208e5323b370",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "COMP341/slides/3 - Uninformed Search.pdf"
-              }
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
         "id": "8d4530e8a93218d4",
         "type": "tabs",
-        "dimension": 87.01298701298701,
         "children": [
           {
             "id": "4e5246cbd01c17ad",
@@ -89,18 +30,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "576fc91a017915f0",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "images/Pasted image 20240317232736.png"
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -150,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "5ebe61e7b4befa70",
@@ -167,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP341/lectures/L2 - Agents.md",
+                "file": "COMP341/lectures/L3&4 - Search Algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP341/lectures/L2 - Agents.md",
+                "file": "COMP341/lectures/L3&4 - Search Algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP341/lectures/L2 - Agents.md"
+                "file": "COMP341/lectures/L3&4 - Search Algorithms.md"
               }
             }
           }
@@ -230,20 +161,20 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4e5246cbd01c17ad",
+  "active": "47820cf838daa74c",
   "lastOpenFiles": [
+    "images/Pasted image 20240317232736.png",
+    "COMP341/lectures/L2 - Agents.md",
     "COMP341/lectures/L3&4 - Search Algorithms.md",
     "COMP341/slides/6 - CSPs.pdf",
     "COMP341/slides/5 - LocalSearch.pdf",
     "COMP341/slides/7 - Adversarial Search.pdf",
-    "images/Pasted image 20240317232736.png",
     "COMP341/slides/4 - InformedSearch.pdf",
     "images/Pasted image 20240317230721.png",
     "images/Pasted image 20240317230043.png",
     "COMP341/lectures/L4 - Informed Search.md",
     "Excalidraw/Drawing 2024-03-17 21.25.37.excalidraw.md",
     "Excalidraw",
-    "COMP341/lectures/L2 - Agents.md",
     "COMP341/slides/3 - Uninformed Search.pdf",
     "COMP341/slides/2 - Agents.pdf",
     "images/Pasted image 20240315205042.png",

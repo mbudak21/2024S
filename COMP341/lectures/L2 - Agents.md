@@ -7,11 +7,13 @@ We want to make **rational** agents, which acts to maximize its utility.
 - Sensors
 
 ### Search Problem
-States (configs of the world)
-Actions and costs
-Successor Function (world dynamics)
-Start sate and goal test
-# Agent Types
+• A **state space** - The set of all possible states that are possible in your given world
+• A s**et of actions** available in each state
+• A **transition model** - Outputs the next state when a specific action is taken at current state
+• An **action cost** - Incurred when moving from one state to another after applying an action
+• A **start state** - The state in which an agent exists initially
+• A **goal test** - A function that takes a state as input, and determines whether it is a goal state
+
 - **Simple Reflex Agents:** React to the current percept with a direct action, without considering the future.
 - **Model-Based Reflex Agents:** Consider the current state and the internal model of the world to choose an action, allowing for a more informed decision than simple reflex agents.
 - **Goal-Based Agents:** Make decisions based on the likelihood of actions bringing them closer to achieving predefined goals, considering future outcomes.

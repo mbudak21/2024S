@@ -45,11 +45,8 @@ Example: Manhattan Distance
 ![[Pasted image 20240317230721.png]]
 ### Consistency
 $$
-\forall A, C \ \ \ \ h(A)-h(C)
+\forall A, C \ \ \ \ h(A)-h(C) \le cost(A,C)
 $$
-A heuristic is consistent if it is monotonically decreasing along the path to the goal.
-
-
 ### Dominance
 ![[Pasted image 20240317232736.png]]
  

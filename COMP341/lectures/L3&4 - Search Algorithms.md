@@ -26,7 +26,8 @@ Expand next state based on the sole heuristic value
 Choose the next state based on heuristic + actual cost
 
 - Is Complete (under some conditions)
-- Optimality if h(s) is **admissable**
+- Optimal in tree search if h(s) is **admissable**
+- Optimal in graph search if **admissable** and **consistent**
 - Time complexity also depends on h(s)
 - Space complexity is Exponential
 

@@ -6,6 +6,7 @@
       {
         "id": "24355c93721aaae1",
         "type": "tabs",
+        "dimension": 63.02895322939867,
         "children": [
           {
             "id": "1a741418bc000555",
@@ -37,11 +38,13 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "42eae4f079e5e62d",
         "type": "tabs",
+        "dimension": 36.97104677060133,
         "children": [
           {
             "id": "727ffc19b78adbdc",
@@ -121,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP341/lectures/L5.md",
+                "file": "COMP341/slides/6 - CSPs.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP341/lectures/L5.md",
+                "file": "COMP341/slides/6 - CSPs.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP341/lectures/L5.md"
+                "file": "COMP341/slides/6 - CSPs.pdf"
               }
             }
           }
@@ -184,11 +187,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "727ffc19b78adbdc",
+  "active": "6830f0e488dbd729",
   "lastOpenFiles": [
     "COMP341/slides/5 - LocalSearch.pdf",
-    "COMP341/lectures/L5.md",
     "COMP341/slides/7 - Adversarial Search.pdf",
+    "COMP341/lectures/L5.md",
     "COMP341/slides/6 - CSPs.pdf",
     "COMP341/lectures/L3&4 - Search Algorithms.md",
     "images/Pasted image 20240317232736.png",

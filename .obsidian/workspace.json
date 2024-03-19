@@ -23,11 +23,19 @@
             "id": "da04775ae4c759b6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "COMP341/lectures/L5.md",
-                "mode": "source",
-                "source": false
+                "file": "COMP341/slides/5 - LocalSearch.pdf"
+              }
+            }
+          },
+          {
+            "id": "56b8463a506c66cc",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.11"
               }
             }
           },
@@ -54,7 +62,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -120,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP341/lectures/L5.md",
+                "file": "COMP341/slides/5 - LocalSearch.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP341/lectures/L5.md",
+                "file": "COMP341/slides/5 - LocalSearch.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP341/lectures/L5.md"
+                "file": "COMP341/slides/5 - LocalSearch.pdf"
               }
             }
           }
@@ -183,10 +191,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "da04775ae4c759b6",
+  "active": "56b8463a506c66cc",
   "lastOpenFiles": [
-    "COMP341/lectures/L3&4 - Search Algorithms.md",
     "COMP341/lectures/L5.md",
+    "COMP341/lectures/L3&4 - Search Algorithms.md",
     "COMP341/lectures/L6 - Games.md",
     "COMP341/midterm1/Comp341Fall23Mt1Solutions.pdf",
     "COMP341/midterm1/Comp341Fall22Mt1Solutions.pdf",

@@ -39,7 +39,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "42eae4f079e5e62d",
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP341/slides/7 - Adversarial Search.pdf",
+                "file": "COMP341/slides/6 - CSPs.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP341/slides/7 - Adversarial Search.pdf",
+                "file": "COMP341/slides/6 - CSPs.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP341/slides/7 - Adversarial Search.pdf"
+                "file": "COMP341/slides/6 - CSPs.pdf"
               }
             }
           }
@@ -187,10 +187,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b486df86bae34336",
+  "active": "6830f0e488dbd729",
   "lastOpenFiles": [
-    "COMP341/lectures/L5.md",
     "COMP341/slides/7 - Adversarial Search.pdf",
+    "COMP341/lectures/L5.md",
     "COMP341/slides/6 - CSPs.pdf",
     "COMP341/slides/5 - LocalSearch.pdf",
     "COMP341/lectures/L3&4 - Search Algorithms.md",

@@ -53,8 +53,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -121,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP341/lectures/L6 - Games.md",
+                "file": "COMP341/lectures/L3&4 - Search Algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP341/lectures/L6 - Games.md",
+                "file": "COMP341/lectures/L3&4 - Search Algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP341/lectures/L6 - Games.md"
+                "file": "COMP341/lectures/L3&4 - Search Algorithms.md"
               }
             }
           }
@@ -184,18 +183,18 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "727ffc19b78adbdc",
+  "active": "473a3de6c522cdd8",
   "lastOpenFiles": [
+    "COMP341/lectures/L5.md",
+    "COMP341/lectures/L3&4 - Search Algorithms.md",
+    "COMP341/lectures/L6 - Games.md",
     "COMP341/midterm1/Comp341Fall23Mt1Solutions.pdf",
     "COMP341/midterm1/Comp341Fall22Mt1Solutions.pdf",
     "COMP341/midterm1/Comp341f19mt1Soln.pdf",
     "COMP341/midterm1/Comp341f21mt1Soln.pdf",
     "COMP341/midterm1",
     "Pasted image 20240319112740.png",
-    "COMP341/lectures/L5.md",
-    "COMP341/lectures/L6 - Games.md",
     "COMP341/slides/7 - Adversarial Search.pdf",
-    "COMP341/lectures/L3&4 - Search Algorithms.md",
     "COMP341/slides/6 - CSPs.pdf",
     "COMP341/slides/5 - LocalSearch.pdf",
     "images/Pasted image 20240317232736.png",
@@ -206,7 +205,6 @@
     "COMP341/lectures/L4 - Informed Search.md",
     "Excalidraw/Drawing 2024-03-17 21.25.37.excalidraw.md",
     "Excalidraw",
-    "COMP341/slides/3 - Uninformed Search.pdf",
     "images/Pasted image 20240315205042.png",
     "COMP341/lectures/L1 - Introduction.md",
     "Dynamic.md",

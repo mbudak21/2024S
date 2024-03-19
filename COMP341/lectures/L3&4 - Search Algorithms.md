@@ -56,23 +56,3 @@ $$
 • Learning heuristics 
 • Online A*
 • Dynamic Environment: D*
-
-# Local Search
-Disregard the path, just focus on getting the goal state.
-- Solution is the goal state itself.
-- Search for a solution when the path doesn't matter
-- Get to a `better` state (best if possible)
-
-## Hill Climbing
-- Not complete
-- Not optimal
-- $O(d)$ time complexity, d: longest path to solution (can be infinite!)
-- Constant space complexity
-- too greedy
-
-```
-Start from a node
-Look at the best valued neighbor
-Choose it
-Repeat untill neighborVal < currentVal
-```

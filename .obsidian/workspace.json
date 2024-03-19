@@ -6,7 +6,7 @@
       {
         "id": "24355c93721aaae1",
         "type": "tabs",
-        "dimension": 63.02895322939867,
+        "dimension": 38.6654478976234,
         "children": [
           {
             "id": "1a741418bc000555",
@@ -44,8 +44,20 @@
       {
         "id": "42eae4f079e5e62d",
         "type": "tabs",
-        "dimension": 36.97104677060133,
+        "dimension": 61.334552102376605,
         "children": [
+          {
+            "id": "473a3de6c522cdd8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "COMP341/lectures/L3&4 - Search Algorithms.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
           {
             "id": "727ffc19b78adbdc",
             "type": "leaf",
@@ -58,7 +70,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -124,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP341/slides/6 - CSPs.pdf",
+                "file": "COMP341/lectures/L5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP341/slides/6 - CSPs.pdf",
+                "file": "COMP341/lectures/L5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP341/slides/6 - CSPs.pdf"
+                "file": "COMP341/lectures/L5.md"
               }
             }
           }
@@ -187,13 +200,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6830f0e488dbd729",
+  "active": "727ffc19b78adbdc",
   "lastOpenFiles": [
-    "COMP341/slides/7 - Adversarial Search.pdf",
+    "COMP341/lectures/L3&4 - Search Algorithms.md",
     "COMP341/lectures/L5.md",
     "COMP341/slides/6 - CSPs.pdf",
+    "COMP341/slides/7 - Adversarial Search.pdf",
     "COMP341/slides/5 - LocalSearch.pdf",
-    "COMP341/lectures/L3&4 - Search Algorithms.md",
     "images/Pasted image 20240317232736.png",
     "COMP341/lectures/L2 - Agents.md",
     "COMP341/slides/4 - InformedSearch.pdf",

@@ -4,47 +4,8 @@
     "type": "split",
     "children": [
       {
-        "id": "24355c93721aaae1",
-        "type": "tabs",
-        "dimension": 38.6654478976234,
-        "children": [
-          {
-            "id": "1a741418bc000555",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "COMP341/slides/5 - LocalSearch.pdf"
-              }
-            }
-          },
-          {
-            "id": "6830f0e488dbd729",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "COMP341/slides/6 - CSPs.pdf"
-              }
-            }
-          },
-          {
-            "id": "b486df86bae34336",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "COMP341/slides/7 - Adversarial Search.pdf"
-              }
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
         "id": "42eae4f079e5e62d",
         "type": "tabs",
-        "dimension": 61.334552102376605,
         "children": [
           {
             "id": "473a3de6c522cdd8",
@@ -59,7 +20,7 @@
             }
           },
           {
-            "id": "727ffc19b78adbdc",
+            "id": "da04775ae4c759b6",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -69,9 +30,31 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "727ffc19b78adbdc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "COMP341/lectures/L6 - Games.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b486df86bae34336",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "COMP341/slides/7 - Adversarial Search.pdf"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -121,7 +104,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "5ebe61e7b4befa70",
@@ -137,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP341/lectures/L5.md",
+                "file": "COMP341/lectures/L6 - Games.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP341/lectures/L5.md",
+                "file": "COMP341/lectures/L6 - Games.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP341/lectures/L5.md"
+                "file": "COMP341/lectures/L6 - Games.md"
               }
             }
           }
@@ -202,10 +186,12 @@
   },
   "active": "727ffc19b78adbdc",
   "lastOpenFiles": [
-    "COMP341/lectures/L3&4 - Search Algorithms.md",
+    "Pasted image 20240319112740.png",
     "COMP341/lectures/L5.md",
-    "COMP341/slides/6 - CSPs.pdf",
+    "COMP341/lectures/L6 - Games.md",
     "COMP341/slides/7 - Adversarial Search.pdf",
+    "COMP341/lectures/L3&4 - Search Algorithms.md",
+    "COMP341/slides/6 - CSPs.pdf",
     "COMP341/slides/5 - LocalSearch.pdf",
     "images/Pasted image 20240317232736.png",
     "COMP341/lectures/L2 - Agents.md",
@@ -243,7 +229,6 @@
     "COMP305/lectures/L5 - VanEmdeBoas 1.md",
     "COMP305/lectures/L6 - VanEmdeBoas 2.md",
     "COMP341/tutorial/lec 5.md",
-    "COMP305/lectures/L1 - Introduction.md",
-    "COMP304/L5 - Inter-Process Communication (IPC).md"
+    "COMP305/lectures/L1 - Introduction.md"
   ]
 }

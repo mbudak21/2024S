@@ -23,19 +23,11 @@
             "id": "da04775ae4c759b6",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "COMP341/slides/5 - LocalSearch.pdf"
-              }
-            }
-          },
-          {
-            "id": "56b8463a506c66cc",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.11"
+                "file": "COMP341/lectures/L6 - Games.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -62,7 +54,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -128,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP341/slides/5 - LocalSearch.pdf",
+                "file": "COMP341/lectures/L6 - Games.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP341/slides/5 - LocalSearch.pdf",
+                "file": "COMP341/lectures/L6 - Games.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP341/slides/5 - LocalSearch.pdf"
+                "file": "COMP341/lectures/L6 - Games.md"
               }
             }
           }
@@ -191,11 +183,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "56b8463a506c66cc",
+  "active": "da04775ae4c759b6",
   "lastOpenFiles": [
     "COMP341/lectures/L5.md",
-    "COMP341/lectures/L3&4 - Search Algorithms.md",
     "COMP341/lectures/L6 - Games.md",
+    "COMP341/slides/6 - CSPs.pdf",
+    "COMP341/slides/5 - LocalSearch.pdf",
+    "COMP341/lectures/L3&4 - Search Algorithms.md",
     "COMP341/midterm1/Comp341Fall23Mt1Solutions.pdf",
     "COMP341/midterm1/Comp341Fall22Mt1Solutions.pdf",
     "COMP341/midterm1/Comp341f19mt1Soln.pdf",
@@ -203,8 +197,6 @@
     "COMP341/midterm1",
     "Pasted image 20240319112740.png",
     "COMP341/slides/7 - Adversarial Search.pdf",
-    "COMP341/slides/6 - CSPs.pdf",
-    "COMP341/slides/5 - LocalSearch.pdf",
     "images/Pasted image 20240317232736.png",
     "COMP341/lectures/L2 - Agents.md",
     "COMP341/slides/4 - InformedSearch.pdf",

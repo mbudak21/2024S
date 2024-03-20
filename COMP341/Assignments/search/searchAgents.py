@@ -398,7 +398,6 @@ def cornersHeuristic(state: Any, problem: CornersProblem):
     if CHOSEN == "MANHATTAN_DISTANCE":
         # A heuristic that calculates the manhattan distance to the corners
         corners = [corner for corner in corners if state[1][corner] == False]
-        print(corners)
         distances = []
         for corner in corners:
             dist = abs(xcoord - corner[0]) + abs(ycoord - corner[1])
@@ -506,14 +505,27 @@ def foodHeuristic(state: Tuple[Tuple, List[List]], problem: FoodSearchProblem):
     "*** YOUR CODE HERE ***"
 
 
-    # 1st Heuristic: Count how many food nodes are present in the grid
-    # Result: 3202 tiny, 12517
-    count = 0
-    for currentInt in foodGrid.packBits()[2:]:
-        while currentInt:
-            count += currentInt & 1
-            currentInt >>= 1
-    return count
+    foodList = foodGrid.asList()
+
+    if not foodList:
+        return 0
+
+    maxDistance = 0
+
+    for foodPos in foodList:
+        distance = mazeDistance(position, foodPos, problem.startingGameState)
+        maxDistance = max(maxDistance, distance)
+
+    return maxDistance
+
+    # # 1st Heuristic: Count how many food nodes are present in the grid
+    # # Result: 3202 tiny, 12517
+    # count = 0
+    # for currentInt in foodGrid.packBits()[2:]:
+    #     while currentInt:
+    #         count += currentInt & 1
+    #         currentInt >>= 1
+    # return count
 
     # # 2nd Heuristic: Distance to the closest food
     # # Result: 4238 tiny

@@ -13,11 +13,42 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "COMP304/slides/Lecture4 - Process creation.pdf"
+                "file": "COMP304/slides/Lecture5 - IPC.pdf"
+              }
+            }
+          },
+          {
+            "id": "fa9d125ea25ea9d0",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "COMP304/slides/Lecture6 - Scheduling.pdf"
+              }
+            }
+          },
+          {
+            "id": "c843dd68f7da3c38",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "COMP304/slides/Lecture7 - Scheduling II.pdf"
+              }
+            }
+          },
+          {
+            "id": "43f149c60fd5ad83",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "COMP304/slides/Lecture8 - Scheduling in Linux.pdf"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -83,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP304/slides/Lecture4 - Process creation.pdf",
+                "file": "COMP304/slides/Lecture8 - Scheduling in Linux.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP304/slides/Lecture4 - Process creation.pdf",
+                "file": "COMP304/slides/Lecture8 - Scheduling in Linux.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP304/slides/Lecture4 - Process creation.pdf"
+                "file": "COMP304/slides/Lecture8 - Scheduling in Linux.pdf"
               }
             }
           }
@@ -146,13 +177,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "01c55209ae474be0",
+  "active": "43f149c60fd5ad83",
   "lastOpenFiles": [
+    "COMP304/slides/Lecture7 - Scheduling II.pdf",
+    "COMP304/slides/Lecture8 - Scheduling in Linux.pdf",
+    "COMP304/slides/Lecture6 - Scheduling.pdf",
+    "COMP304/slides/Lecture5 - IPC.pdf",
+    "COMP304/slides/Lecture4 - Process creation.pdf",
     "COMP304/slides/Lecture3 - process-management.pdf",
     "COMP304/slides/Lecture1 - intro.pdf",
-    "COMP304/slides/Lecture8 - Scheduling in Linux.pdf",
-    "COMP304/slides/Lecture7 - Scheduling II.pdf",
-    "COMP304/slides/Lecture6 - Scheduling.pdf",
     "images/Pasted image 20240319112740.png",
     "COMP341/slides/7 - Adversarial Search.pdf",
     "COMP341/lectures/L6 - Games.md",
@@ -161,8 +194,6 @@
     "COMP341/slides/5 - LocalSearch.pdf",
     "COMP341/lectures/L3&4 - Search Algorithms.md",
     "COMP341/midterm1/Comp341Fall23Mt1Solutions.pdf",
-    "COMP341/midterm1/Comp341Fall22Mt1Solutions.pdf",
-    "COMP341/midterm1/Comp341f19mt1Soln.pdf",
     "images/Pasted image 20240317232736.png",
     "COMP341/lectures/L2 - Agents.md",
     "images/Pasted image 20240317230721.png",

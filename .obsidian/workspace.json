@@ -4,51 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "8f40cf5faf6e1b7c",
+        "id": "c1e68cc59d7870e3",
         "type": "tabs",
         "children": [
           {
-            "id": "01c55209ae474be0",
+            "id": "c0da640d9d66176f",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "COMP304/slides/Lecture5 - IPC.pdf"
+                "file": "COMP305/ps/PS4.pdf"
               }
             }
           },
           {
-            "id": "fa9d125ea25ea9d0",
+            "id": "634fd7ed12d04546",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "COMP304/slides/Lecture6 - Scheduling.pdf"
-              }
-            }
-          },
-          {
-            "id": "c843dd68f7da3c38",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "COMP304/slides/Lecture7 - Scheduling II.pdf"
-              }
-            }
-          },
-          {
-            "id": "43f149c60fd5ad83",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "COMP304/slides/Lecture8 - Scheduling in Linux.pdf"
+                "file": "COMP305/Introduction to Algorithms, Third Edition.pdf"
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -114,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP304/slides/Lecture8 - Scheduling in Linux.pdf",
+                "file": "COMP305/Introduction to Algorithms, Third Edition.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP304/slides/Lecture8 - Scheduling in Linux.pdf",
+                "file": "COMP305/Introduction to Algorithms, Third Edition.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP304/slides/Lecture8 - Scheduling in Linux.pdf"
+                "file": "COMP305/Introduction to Algorithms, Third Edition.pdf"
               }
             }
           }
@@ -173,27 +153,28 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "43f149c60fd5ad83",
+  "active": "634fd7ed12d04546",
   "lastOpenFiles": [
-    "COMP304/slides/Lecture7 - Scheduling II.pdf",
+    "COMP305/ps/PS4.pdf",
+    "COMP305/Introduction to Algorithms, Third Edition.pdf",
+    "COMP305/ps/PS3.pdf",
+    "COMP305/ps/ps1.pdf",
+    "Excalidraw/Drawing 2024-03-22 20.17.45.excalidraw.md",
+    "Excalidraw",
+    "COMP305/ps/Drawing 2024-03-11 15.30.06.excalidraw.md",
     "COMP304/slides/Lecture8 - Scheduling in Linux.pdf",
+    "COMP304/slides/Lecture7 - Scheduling II.pdf",
     "COMP304/slides/Lecture6 - Scheduling.pdf",
     "COMP304/slides/Lecture5 - IPC.pdf",
     "COMP304/slides/Lecture4 - Process creation.pdf",
     "COMP304/slides/Lecture3 - process-management.pdf",
-    "COMP304/slides/Lecture1 - intro.pdf",
     "images/Pasted image 20240319112740.png",
-    "COMP341/slides/7 - Adversarial Search.pdf",
     "COMP341/lectures/L6 - Games.md",
     "COMP341/lectures/L5.md",
-    "COMP341/slides/6 - CSPs.pdf",
-    "COMP341/slides/5 - LocalSearch.pdf",
     "COMP341/lectures/L3&4 - Search Algorithms.md",
-    "COMP341/midterm1/Comp341Fall23Mt1Solutions.pdf",
     "images/Pasted image 20240317232736.png",
     "COMP341/lectures/L2 - Agents.md",
     "images/Pasted image 20240317230721.png",
@@ -204,7 +185,6 @@
     "COMP341/lectures/L1 - Introduction.md",
     "Dynamic.md",
     "ETHC113/readings/Aristo Stuff.md",
-    "COMP305/ps/Drawing 2024-03-11 15.30.06.excalidraw.md",
     "ETHC113/L6 -.md",
     "ETHC113/lec4.md",
     "COMP305/lectures/Amortization.md",
@@ -222,7 +202,6 @@
     "COMP305/lectures/L4 - Medians, Induction.md",
     "COMP305/lectures/L5 - VanEmdeBoas 1.md",
     "COMP305/lectures/L6 - VanEmdeBoas 2.md",
-    "COMP341/tutorial/lec 5.md",
-    "COMP305/lectures/L1 - Introduction.md"
+    "COMP341/tutorial/lec 5.md"
   ]
 }

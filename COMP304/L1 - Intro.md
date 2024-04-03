@@ -24,4 +24,3 @@ An OS is interrupt driven, it waits for events to occur
 
 **Interrupt Vector:** Contains the addresses of all the service routines for interrupt handling
 
-## History Of Operating Systems

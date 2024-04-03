@@ -27,8 +27,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP305/Introduction to Algorithms, Third Edition.pdf",
+                "file": "COMP305/ps/PS4.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP305/Introduction to Algorithms, Third Edition.pdf",
+                "file": "COMP305/ps/PS4.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP305/Introduction to Algorithms, Third Edition.pdf"
+                "file": "COMP305/ps/PS4.pdf"
               }
             }
           }
@@ -156,10 +155,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "634fd7ed12d04546",
+  "active": "c0da640d9d66176f",
   "lastOpenFiles": [
-    "COMP305/ps/PS4.pdf",
     "COMP305/Introduction to Algorithms, Third Edition.pdf",
+    "COMP305/ps/PS4.pdf",
     "COMP305/ps/PS3.pdf",
     "COMP305/ps/ps1.pdf",
     "Excalidraw/Drawing 2024-03-22 20.17.45.excalidraw.md",

@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP304/slides/Lecture1 - intro.pdf",
+                "file": "COMP304/L1 - Intro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP304/slides/Lecture1 - intro.pdf",
+                "file": "COMP304/L1 - Intro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP304/slides/Lecture1 - intro.pdf"
+                "file": "COMP304/L1 - Intro.md"
               }
             }
           }
@@ -163,10 +163,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "44a599320256f4d5",
+  "active": "51300b95ee65c7a1",
   "lastOpenFiles": [
-    "COMP304/L1 - Intro.md",
     "COMP304/slides/Lecture1 - intro.pdf",
+    "COMP304/L1 - Intro.md",
     "COMP304/slides/Lecture6 - Scheduling.pdf",
     "COMP304/L6 - Process Management.md",
     "COMP305/Introduction to Algorithms, Third Edition.pdf",
@@ -208,7 +208,6 @@
     "COMP305/lectures/L3 - Convex Hull, Master Thm.md",
     "COMP305/lectures/L4 - Medians, Induction.md",
     "COMP305/lectures/L5 - VanEmdeBoas 1.md",
-    "COMP305/lectures/L6 - VanEmdeBoas 2.md",
-    "COMP341/tutorial/lec 5.md"
+    "COMP305/lectures/L6 - VanEmdeBoas 2.md"
   ]
 }

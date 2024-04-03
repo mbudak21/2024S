@@ -4,26 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "c1e68cc59d7870e3",
+        "id": "c1da107611e23433",
         "type": "tabs",
         "children": [
           {
-            "id": "c0da640d9d66176f",
+            "id": "51300b95ee65c7a1",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "COMP305/ps/PS4.pdf"
+                "file": "COMP304/L1 - Intro.md",
+                "mode": "source",
+                "source": false
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "0d1ff988a2082089",
+        "type": "tabs",
+        "children": [
           {
-            "id": "634fd7ed12d04546",
+            "id": "44a599320256f4d5",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "COMP305/Introduction to Algorithms, Third Edition.pdf"
+                "file": "COMP304/slides/Lecture1 - intro.pdf"
               }
             }
           }
@@ -93,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COMP305/ps/PS4.pdf",
+                "file": "COMP304/slides/Lecture1 - intro.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COMP305/ps/PS4.pdf",
+                "file": "COMP304/slides/Lecture1 - intro.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COMP305/ps/PS4.pdf"
+                "file": "COMP304/slides/Lecture1 - intro.pdf"
               }
             }
           }
@@ -155,8 +163,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c0da640d9d66176f",
+  "active": "44a599320256f4d5",
   "lastOpenFiles": [
+    "COMP304/L1 - Intro.md",
+    "COMP304/slides/Lecture1 - intro.pdf",
+    "COMP304/slides/Lecture6 - Scheduling.pdf",
+    "COMP304/L6 - Process Management.md",
     "COMP305/Introduction to Algorithms, Third Edition.pdf",
     "COMP305/ps/PS4.pdf",
     "COMP305/ps/PS3.pdf",
@@ -166,10 +178,7 @@
     "COMP305/ps/Drawing 2024-03-11 15.30.06.excalidraw.md",
     "COMP304/slides/Lecture8 - Scheduling in Linux.pdf",
     "COMP304/slides/Lecture7 - Scheduling II.pdf",
-    "COMP304/slides/Lecture6 - Scheduling.pdf",
     "COMP304/slides/Lecture5 - IPC.pdf",
-    "COMP304/slides/Lecture4 - Process creation.pdf",
-    "COMP304/slides/Lecture3 - process-management.pdf",
     "images/Pasted image 20240319112740.png",
     "COMP341/lectures/L6 - Games.md",
     "COMP341/lectures/L5.md",
@@ -189,7 +198,6 @@
     "COMP305/lectures/Amortization.md",
     "COMP305/lectures/How To Solve Recurrences.md",
     "COMP304/L7 -.md",
-    "COMP304/L6 - Process Management.md",
     "COMP304/L2 - Operating System Structure.md",
     "COMP341/Assignments/tutorial/lec 5.md",
     "images/Pasted image 20240302220953.png",

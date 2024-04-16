@@ -11,6 +11,8 @@
 # Student side autograding was added by Brad Miller, Nick Hay, and
 # Pieter Abbeel (pabbeel@cs.berkeley.edu).
 
+# NAME: Mehmet Murat Budak
+# ID: 0078940
 
 from util import manhattanDistance
 from game import Directions
@@ -364,17 +366,113 @@ class ExpectimaxAgent(MultiAgentSearchAgent):
         legal moves.
         """
         "*** YOUR CODE HERE ***"
-        util.raiseNotDefined()
+        def minimax(gameState: GameState, agent: int, depth: int):
+            # print("Call: ", callNum, "Agent: ", agent, "Depth: ", depth)
+            if depth == 0 or gameState.isLose() or gameState.isWin():
+                return [self.evaluationFunction(gameState), ""]
+            
+            agentCount = gameState.getNumAgents()
+            nextAgent = (agent + 1)%agentCount
+            
+            if agent == 0:
+                maxEval = float("-inf")
+                bestAction = ""
+                for action in gameState.getLegalActions(0):
+                    state = gameState.generateSuccessor(0, action)
+                    value = minimax(state, nextAgent, depth)[0]
+                    
+                    if value >= maxEval:
+                        maxEval = value
+                        bestAction = action
+
+                return [maxEval, bestAction]
+
+            
+            else:
+                if nextAgent == 0: # Decrement before pacman's move
+                    depth -= 1
+
+                avgEval = 0
+                actions = gameState.getLegalActions(agent)
+                for action in actions:
+                    state = gameState.generateSuccessor(agent, action)
+                    avgEval += minimax(state, nextAgent, depth)[0]
+                    
+                avgEval /= len(actions)
+                return [avgEval, ""]
+        
+        # Initiate the minimax search        
+        return minimax(gameState, 0, self.depth)[1]
 
 def betterEvaluationFunction(currentGameState: GameState):
     """
     Your extreme ghost-hunting, pellet-nabbing, food-gobbling, unstoppable
     evaluation function (question 5).
 
-    DESCRIPTION: <write something here so we know what you did>
+    DESCRIPTION: score + closest food distance + food pellet count + closest capsule distance + capsule count + closest ghost penalty + active ghost count + stuck penalty + random
     """
     "*** YOUR CODE HERE ***"
-    util.raiseNotDefined()
+
+    def manhattanDistance(pos1, pos2):
+        return abs(pos1[0] - pos2[0]) + abs(pos1[1] - pos2[1])
+
+    pos = currentGameState.getPacmanPosition()
+    food = currentGameState.getFood()
+    capsules = currentGameState.getCapsules()
+    ghostStates = currentGameState.getGhostStates()
+
+    score = currentGameState.getScore()
+
+    # Food related
+    foodCount = len(food.asList())
+    score -= foodCount * 3
+    try:
+        closestFoodDistance = min([manhattanDistance(pos, food) for food in food.asList()])
+        score += 1 / closestFoodDistance  # Reward for closer food
+    except ValueError:
+        pass
+
+    # Capsule related
+    capsuleCount = len(capsules)
+    score -= capsuleCount * 5
+    try:
+        closestCapsuleDistance = min([manhattanDistance(pos, capsule) for capsule in capsules])
+        score += 2 / closestCapsuleDistance  # Reward for closer capsule
+    except ValueError:
+        pass
+
+    # Ghost related
+    try:
+        closestGhostDistance = min([manhattanDistance(pos, ghost.getPosition()) for ghost in ghostStates if ghost.scaredTimer == 0])  # Distance to closest active ghost
+        score -= 1 / closestGhostDistance # Penalize closer ghosts 
+    except ValueError:
+        pass # No active ghosts
+    except ZeroDivisionError:
+        return float("-inf")
+    
+      
+    activeGhostCount = len([ghost for ghost in ghostStates if ghost.scaredTimer == 0])  # Number of active ghosts
+    score -= activeGhostCount * 2  # Penalize for each active ghost (adjust weight)
+
+
+    # If there are 3 adjacent walls, pacman is stuck
+    stuck = 0
+    if currentGameState.hasWall(pos[0] + 1, pos[1]):
+        stuck += 1
+    if currentGameState.hasWall(pos[0] - 1, pos[1]):
+        stuck += 1
+    if currentGameState.hasWall(pos[0], pos[1] + 1):
+        stuck += 1
+    if currentGameState.hasWall(pos[0], pos[1] - 1):
+        stuck += 1
+
+    if stuck >= 3:
+        #print("STUCK")
+        return float("-inf")
+    
+    score += random.random() * 0.1  # Randomness to break ties
+
+    return score
 
 # Abbreviation
 better = betterEvaluationFunction

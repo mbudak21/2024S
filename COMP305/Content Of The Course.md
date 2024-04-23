@@ -1,5 +1,6 @@
 - [x] Interval Scheduling
 - [ ] Matmul, Recurrences
+- [x] (Median Finding)
 - [ ] Convex Hull, Master THM
 --------
 - [ ] Medians, Induction

@@ -1,4 +1,4 @@
-- [ ] Interval Scheduling
+- [x] Interval Scheduling
 - [ ] Matmul, Recurrences
 - [ ] Convex Hull, Master THM
 --------

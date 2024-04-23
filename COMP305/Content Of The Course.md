@@ -1,1 +1,18 @@
-- []
+- [ ] Interval Scheduling
+- [ ] Matmul, Recurrences
+- [ ] Convex Hull, Master THM
+--------
+- [ ] Medians, Induction
+- [ ] VanEmbdeBoas
+- [ ] Aggregate Method & Accounting Method
+- [ ] Potential Method
+-----
+- [ ] Monte Carlo
+- [ ] Las Vegas
+- [ ] Skip Lists
+- [ ] Hashing
+------
+- [ ] Finger Search
+- [ ] Range Trees
+- [ ] Intro to DP
+- [ ] **Midterm**

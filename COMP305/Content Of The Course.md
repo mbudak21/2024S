@@ -1,11 +1,11 @@
 - [x] Interval Scheduling
-- [ ] Matmul, Recurrences
+- [x] Matmul, Recurrences
 - [x] (Median Finding)
-- [ ] Convex Hull, Master THM
+- [x] Convex Hull, Master THM
 --------
-- [ ] Medians, Induction
+- [x] Medians, Induction
 - [ ] VanEmbdeBoas
-- [ ] Aggregate Method & Accounting Method
+- [x] Aggregate Method & Accounting Method
 - [ ] Potential Method
 -----
 - [ ] Monte Carlo

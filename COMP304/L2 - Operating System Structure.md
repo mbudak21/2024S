@@ -10,4 +10,3 @@
 - Resource Allocation
 - Accounting
 - Protection and Security
-- 

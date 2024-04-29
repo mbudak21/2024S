@@ -18,3 +18,6 @@
 Memory Protection:
 - **Base Register:** Holds the smallest physical address for the process
 - **Limit Register:** Contains the size of the range
+CPU Protection:
+- **Timer:** Timer is decremented every tick, when it reaches 0, an interrupt occurs.
+- 

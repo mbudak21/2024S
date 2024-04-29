@@ -10,3 +10,6 @@
 - Resource Allocation
 - Accounting
 - Protection and Security
+
+**Mode Bit:** if 0, kernel level if 1, user level
+**System Call Table:** Stores all of the registered system calls.

@@ -9,3 +9,6 @@ As a process executes, it changes its state
  - **waiting**: The process is waiting for some event (e.g., IO) to occur
  - **ready**: The process is waiting to be assigned to a CPU
  - **terminated**: The process has finished execution
+
+## Process Control Block (PCB)
+

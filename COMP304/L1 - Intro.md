@@ -23,4 +23,4 @@ An OS is interrupt driven, it waits for events to occur
 - A trap or exception is a software generated interrupt caused either by an error or a user request (system call)
 
 **Interrupt Vector:** Contains the addresses of all the service routines for interrupt handling
-
+**System Call:** How a program requests a service from OS. Results in a transition from user mode to Kernel mode. Return from call resets to usermode.

@@ -11,4 +11,5 @@ As a process executes, it changes its state
  - **terminated**: The process has finished execution
 
 ## Process Control Block (PCB)
+![[Pasted image 20240429112821.png]]
 

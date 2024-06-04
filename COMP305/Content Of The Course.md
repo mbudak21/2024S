@@ -4,16 +4,23 @@
 - [x] Convex Hull, Master THM
 --------
 - [x] Medians, Induction
-- [ ] VanEmbdeBoas
+- [x] VanEmbdeBoas
 - [x] Aggregate Method & Accounting Method
-- [ ] Potential Method
+- [x] Potential Method
 -----
-- [ ] Monte Carlo
-- [ ] Las Vegas
-- [ ] Skip Lists
+- [x] Monte Carlo
+- [x] Las Vegas
+- [x] Skip Lists
 - [ ] Hashing
 ------
 - [ ] Finger Search
 - [ ] Range Trees
-- [ ] Intro to DP
-- [ ] **Midterm**
+- [x] DP
+- [ ] All Pairs Shortest Paths
+- [ ] Greedy Algorithms
+- [ ] MST
+- [ ] Flow Networks
+- [ ] Application of Flow
+- [ ] P, NP completeness
+- [ ] Reductions
+- [ ] Final

@@ -17,6 +17,8 @@
 - [ ] Range Trees
 - [x] DP
 - [ ] All Pairs Shortest Paths
+	- [ ] Prims Algo
+	- [ ] Kruskals Algo
 - [ ] Greedy Algorithms
 - [ ] MST
 - [ ] Flow Networks

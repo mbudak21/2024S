@@ -24,3 +24,15 @@
 - [ ] P, NP completeness
 - [ ] Reductions
 - [ ] Final
+
+
+## PS
+
+- [ ] PS 1
+- [ ] PS 3
+- [ ] PS 4
+- [ ] PS 5
+- [ ] PS 6a
+- [ ] PS 6b
+- [ ] PS 7
+- [ ] PS 8

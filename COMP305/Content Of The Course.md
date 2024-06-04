@@ -28,11 +28,11 @@
 
 ## PS
 
-- [ ] PS 1
-- [ ] PS 3
-- [ ] PS 4
-- [ ] PS 5
-- [ ] PS 6a
-- [ ] PS 6b
-- [ ] PS 7
-- [ ] PS 8
+- [x] PS 1
+- [x] PS 3
+- [x] PS 4
+- [x] PS 5
+- [ ] PS 6a apsp
+- [ ] PS 6b mst
+- [ ] PS 7 Max Flow
+- [ ] PS 8 NP reduction

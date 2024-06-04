@@ -19,6 +19,7 @@
 - [ ] All Pairs Shortest Paths
 	- [ ] Prims Algo
 	- [ ] Kruskals Algo
+	- [ ] Greedy MST algo
 - [ ] Greedy Algorithms
 - [ ] MST
 - [ ] Flow Networks

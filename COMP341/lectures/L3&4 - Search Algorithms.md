@@ -47,7 +47,7 @@ Example: Manhattan Distance
 $$
 \forall A, C \ \ \ \ h(A)-h(C) \le cost(A,C)
 $$
-### Dlominance
+### Dominance
 ![[Pasted image 20240317232736.png]]
  
 ## Beyond A*
